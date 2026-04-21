@@ -1,6 +1,42 @@
-# CUNA: Curated Compendium of image datasets
+# Awesome Bioimaging Datasets
 
-A catalog of public biological imaging and omics datasets in `sources.json`.
+A curated catalog of public biological imaging datasets, with some omics and expression resources, in `sources.json`.
+
+**56 datasets** across 12 databases, 4 collections, and 40 individual experiments.
+
+## Databases
+
+| Name | Source |
+|------|--------|
+| [Allen Brain Cell Atlas (ABC Atlas)](https://alleninstitute.github.io/abc_atlas_access/intro.html) | Allen Institute for Brain Science |
+| [BioImage Archive](https://www.ebi.ac.uk/bioimage-archive/) | EMBL-EBI |
+| [Broad Bioimage Benchmark Collection (BBBC)](https://broad.io/BBBC) | Broad Institute Imaging Platform |
+| [Cell Painting Gallery](https://registry.opendata.aws/cellpainting-gallery/) | Carpenter-Singh Lab, Cimini Lab |
+| [CHAMMI-75](https://aws.amazon.com/marketplace/pp/prodview-2iqmvr5xnpstc) | Morgridge Institute for Research |
+| [Dryad](https://datadryad.org) | Dryad |
+| [E11-PRISM](https://registry.opendata.aws/e11bio-prism/) | E11 Bio |
+| [Electron Microscopy Public Image Archive (EMPIAR)](https://www.ebi.ac.uk/empiar/) | EMBL-EBI |
+| [Figshare](https://figshare.com) | Figshare |
+| [Image Data Resource (IDR)](https://idr.openmicroscopy.org/) | Open Microscopy Environment (OME) |
+| [JUMP Cell Painting](https://cellpainting-gallery.s3.amazonaws.com/index.html#cpg0016-jump/) | JUMP Cell Painting Consortium |
+| [Systems Science of Biological Dynamics (SSBD)](https://ssbd.riken.jp/repository) | RIKEN |
+
+## Collections
+
+| Name | Source |
+|------|--------|
+| [Broad Institute Imaging Platform (Zenodo community)](https://zenodo.org/communities/broad-imaging/records) | Broad Institute Imaging Platform |
+| [CZI VisCy public datasets](https://public.czbiohub.org/comp.micro/viscy/) | Mehta Lab, CZ Biohub San Francisco |
+| [HMBA-BG: Cross-species basal ganglia](https://alleninstitute.github.io/abc_atlas_access/descriptions/HMBA-10XMultiome-BG.html) | Allen Institute for Brain Science |
+| [Yeast time series data and fluorescence](https://github.com/afermg/lots_of_images/blob/master/metadata/manifest.csv) | Munoz, Alan F. |
+
+## Standalone experiments
+
+| Name | Source |
+|------|--------|
+| [Abnormal mitochondrial localization associated with psychoses](https://zenodo.org/records/15390513) | Haghighi, Marzieh |
+| [Bacteria single cell tracking](https://zenodo.org/records/7260137) | Seiffarth, Johannes |
+| [Valproic acid-induced changes of 4D nuclear morphology in astrocyte cells](https://zenodo.org/records/15594999) | Kalinin, Alexandr A. et al. |
 
 ## Schema
 
