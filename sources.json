@@ -520,6 +520,23 @@
         ]
     },
     {
+        "id": "bbbc",
+        "name": "Broad Bioimage Benchmark Collection (BBBC)",
+        "url": "https://broad.io/BBBC",
+        "type": "large-scale database",
+        "authors": [
+            "Broad Institute Imaging Platform"
+        ],
+        "tags": [
+            "benchmark",
+            "ground truth",
+            "fluorescence microscopy",
+            "segmentation",
+            "data:images"
+        ],
+        "metadata": []
+    },
+    {
         "id": "bioimage-archive",
         "name": "BioImage Archive",
         "url": "https://www.ebi.ac.uk/bioimage-archive/",
@@ -746,6 +763,22 @@
         ]
     },
     {
+        "id": "dryad",
+        "name": "Dryad",
+        "url": "https://datadryad.org",
+        "type": "large-scale database",
+        "authors": [
+            "Dryad"
+        ],
+        "tags": [
+            "open data",
+            "CC0",
+            "multi-domain",
+            "data:images"
+        ],
+        "metadata": []
+    },
+    {
         "id": "e11-prism",
         "name": "E11-PRISM",
         "url": "https://registry.opendata.aws/e11bio-prism/",
@@ -783,6 +816,21 @@
             "single-particle analysis",
             "8.3 PB",
             "EMBL",
+            "data:images"
+        ],
+        "metadata": []
+    },
+    {
+        "id": "figshare",
+        "name": "Figshare",
+        "url": "https://figshare.com",
+        "type": "large-scale database",
+        "authors": [
+            "Figshare"
+        ],
+        "tags": [
+            "open data",
+            "multi-domain",
             "data:images"
         ],
         "metadata": []
@@ -832,6 +880,503 @@
             {
                 "type": "article",
                 "url": "https://doi.org/10.1093/gigascience/gix027"
+            }
+        ]
+    },
+    {
+        "id": "ssbd",
+        "name": "Systems Science of Biological Dynamics (SSBD)",
+        "url": "https://ssbd.riken.jp/repository",
+        "type": "large-scale database",
+        "authors": [
+            "RIKEN"
+        ],
+        "tags": [
+            "quantitative biology",
+            "bioimaging",
+            "systems biology",
+            "data:images"
+        ],
+        "metadata": []
+    },
+    {
+        "id": "swainlab-munoz-1100-2023-03-12-aggregates-downupshift-glu-2-0-twice-gcd2-gcd6-gcn3-gcd7-sui2",
+        "name": "1100_2023_03_12_aggregates_downUpshift_glu_2_0_twice_gcd2_gcd6_gcn3_gcd7_sui2_00",
+        "url": "https://zenodo.org/records/14187308",
+        "type": "experiment",
+        "authors": [
+            "Munoz, Alan F."
+        ],
+        "tags": [
+            "yeast",
+            "fluorescence microscopy",
+            "time-lapse",
+            "data:images",
+            "id:swainlab-munoz-yeast-fluorescence-time-series",
+            "zenodo",
+            "protein aggregation",
+            "glucose shift",
+            "GCD2",
+            "GCD6",
+            "GCD7",
+            "GCN3",
+            "SUI2",
+            "2 parts"
+        ],
+        "metadata": [
+            {
+                "type": "dataset",
+                "url": "https://zenodo.org/records/14187447"
+            }
+        ]
+    },
+    {
+        "id": "swainlab-munoz-1238-2023-03-19-starve-twice-glu-2-0-2-0-ura7ha-ura7hr-ura8-ura8ha-ura8hr",
+        "name": "1238_2023_03_19_starve_twice_glu_2_0_2_0_ura7ha_ura7hr_ura8_ura8ha_ura8hr_00",
+        "url": "https://zenodo.org/records/14187631",
+        "type": "experiment",
+        "authors": [
+            "Munoz, Alan F."
+        ],
+        "tags": [
+            "yeast",
+            "fluorescence microscopy",
+            "time-lapse",
+            "data:images",
+            "id:swainlab-munoz-yeast-fluorescence-time-series",
+            "zenodo",
+            "starvation",
+            "URA7",
+            "URA8",
+            "2 parts"
+        ],
+        "metadata": [
+            {
+                "type": "dataset",
+                "url": "https://zenodo.org/records/14187765"
+            }
+        ]
+    },
+    {
+        "id": "swainlab-munoz-16545-2019-07-16-aggregates-ctp-switch-2-0glu-0-0glu-ura7young-ura8young-ura8old-secondrun",
+        "name": "16545_2019_07_16_aggregates_CTP_switch_2_0glu_0_0glu_URA7young_URA8young_URA8old_secondRun_01",
+        "url": "https://zenodo.org/records/14187820",
+        "type": "experiment",
+        "authors": [
+            "Munoz, Alan F."
+        ],
+        "tags": [
+            "yeast",
+            "fluorescence microscopy",
+            "time-lapse",
+            "data:images",
+            "id:swainlab-munoz-yeast-fluorescence-time-series",
+            "zenodo",
+            "protein aggregation",
+            "CTP switch",
+            "URA7",
+            "URA8",
+            "2 parts"
+        ],
+        "metadata": [
+            {
+                "type": "dataset",
+                "url": "https://zenodo.org/records/14187963"
+            }
+        ]
+    },
+    {
+        "id": "swainlab-munoz-19129-2020-09-06-downupshift-2-0-2-glu-ura-mig1msn2-phluorin",
+        "name": "19129_2020_09_06_DownUpshift_2_0_2_glu_ura_mig1msn2_phluorin_00",
+        "url": "https://zenodo.org/records/14187982",
+        "type": "experiment",
+        "authors": [
+            "Munoz, Alan F."
+        ],
+        "tags": [
+            "yeast",
+            "fluorescence microscopy",
+            "time-lapse",
+            "data:images",
+            "id:swainlab-munoz-yeast-fluorescence-time-series",
+            "zenodo",
+            "glucose shift",
+            "phluorin",
+            "MIG1",
+            "MSN2",
+            "2 parts"
+        ],
+        "metadata": [
+            {
+                "type": "dataset",
+                "url": "https://zenodo.org/records/14188123"
+            }
+        ]
+    },
+    {
+        "id": "swainlab-munoz-19144-2020-09-07-downupshift-2-0-2-glu-ura-mig1msn2-phluorin-secondround",
+        "name": "19144_2020_09_07_DownUpshift_2_0_2_glu_ura_mig1msn2_phluorin_secondRound_00",
+        "url": "https://zenodo.org/records/14188206",
+        "type": "experiment",
+        "authors": [
+            "Munoz, Alan F."
+        ],
+        "tags": [
+            "yeast",
+            "fluorescence microscopy",
+            "time-lapse",
+            "data:images",
+            "id:swainlab-munoz-yeast-fluorescence-time-series",
+            "zenodo",
+            "glucose shift",
+            "phluorin",
+            "MIG1",
+            "MSN2",
+            "2 parts"
+        ],
+        "metadata": [
+            {
+                "type": "dataset",
+                "url": "https://zenodo.org/records/14188244"
+            }
+        ]
+    },
+    {
+        "id": "swainlab-munoz-19169-2020-09-09-downupshift-2-0-2-glu-ura8-phl-mig1-phl-msn2",
+        "name": "19169_2020_09_09_downUpshift_2_0_2_glu_ura8_phl_mig1_phl_msn2_03",
+        "url": "https://zenodo.org/records/14188312",
+        "type": "experiment",
+        "authors": [
+            "Munoz, Alan F."
+        ],
+        "tags": [
+            "yeast",
+            "fluorescence microscopy",
+            "time-lapse",
+            "data:images",
+            "id:swainlab-munoz-yeast-fluorescence-time-series",
+            "zenodo",
+            "glucose shift",
+            "phluorin",
+            "URA8",
+            "MIG1",
+            "MSN2",
+            "2 parts"
+        ],
+        "metadata": [
+            {
+                "type": "dataset",
+                "url": "https://zenodo.org/records/14188417"
+            }
+        ]
+    },
+    {
+        "id": "swainlab-munoz-19203-2020-09-30-downupshift-twice-2-0-2-glu-ura8-ura8h360a-ura8h360r",
+        "name": "19203_2020_09_30_downUpshift_twice_2_0_2_glu_ura8_ura8h360a_ura8h360r_00",
+        "url": "https://zenodo.org/records/14188548",
+        "type": "experiment",
+        "authors": [
+            "Munoz, Alan F."
+        ],
+        "tags": [
+            "yeast",
+            "fluorescence microscopy",
+            "time-lapse",
+            "data:images",
+            "id:swainlab-munoz-yeast-fluorescence-time-series",
+            "zenodo",
+            "glucose shift",
+            "URA8",
+            "3 parts"
+        ],
+        "metadata": [
+            {
+                "type": "dataset",
+                "url": "https://zenodo.org/records/14188636"
+            },
+            {
+                "type": "dataset",
+                "url": "https://zenodo.org/records/14188769"
+            }
+        ]
+    },
+    {
+        "id": "swainlab-munoz-19232-2020-10-02-downupshift-twice-2-0-2-glu-ura8-phluorinmsn2-phluorinmig1",
+        "name": "19232_2020_10_02_downUpshift_twice_2_0_2_glu_ura8_phluorinMsn2_phluorinMig1_01",
+        "url": "https://zenodo.org/records/14188819",
+        "type": "experiment",
+        "authors": [
+            "Munoz, Alan F."
+        ],
+        "tags": [
+            "yeast",
+            "fluorescence microscopy",
+            "time-lapse",
+            "data:images",
+            "id:swainlab-munoz-yeast-fluorescence-time-series",
+            "zenodo",
+            "glucose shift",
+            "phluorin",
+            "URA8",
+            "MIG1",
+            "MSN2",
+            "4 parts"
+        ],
+        "metadata": [
+            {
+                "type": "dataset",
+                "url": "https://zenodo.org/records/14188868"
+            },
+            {
+                "type": "dataset",
+                "url": "https://zenodo.org/records/14188961"
+            },
+            {
+                "type": "dataset",
+                "url": "https://zenodo.org/records/14189118"
+            }
+        ]
+    },
+    {
+        "id": "swainlab-munoz-19307-2020-10-22-downupshift-2-01-2-glucose-dual-ph-dot6-nrg1-tod6",
+        "name": "19307_2020_10_22_downUpshift_2_01_2_glucose_dual_pH__dot6_nrg1_tod6__00",
+        "url": "https://zenodo.org/records/14189201",
+        "type": "experiment",
+        "authors": [
+            "Munoz, Alan F."
+        ],
+        "tags": [
+            "yeast",
+            "fluorescence microscopy",
+            "time-lapse",
+            "data:images",
+            "id:swainlab-munoz-yeast-fluorescence-time-series",
+            "zenodo",
+            "glucose shift",
+            "dual pH",
+            "DOT6",
+            "NRG1",
+            "TOD6",
+            "1 parts"
+        ],
+        "metadata": []
+    },
+    {
+        "id": "swainlab-munoz-19310-2020-10-22-downupshift-2-0-2-glu-dual-phluorin-glt1-psa1-ura7-thrice",
+        "name": "19310_2020_10_22_downUpshift_2_0_2_glu_dual_phluorin__glt1_psa1_ura7__thrice_00",
+        "url": "https://zenodo.org/records/14189288",
+        "type": "experiment",
+        "authors": [
+            "Munoz, Alan F."
+        ],
+        "tags": [
+            "yeast",
+            "fluorescence microscopy",
+            "time-lapse",
+            "data:images",
+            "id:swainlab-munoz-yeast-fluorescence-time-series",
+            "zenodo",
+            "glucose shift",
+            "dual pH",
+            "phluorin",
+            "URA7",
+            "GLT1",
+            "PSA1",
+            "2 parts"
+        ],
+        "metadata": [
+            {
+                "type": "dataset",
+                "url": "https://zenodo.org/records/14189432"
+            }
+        ]
+    },
+    {
+        "id": "swainlab-munoz-19311-2020-10-23-downupshift-2-0-2-glu-dual-phluorin-glt1-psa1-ura7-twice",
+        "name": "19311_2020_10_23_downUpshift_2_0_2_glu_dual_phluorin__glt1_psa1_ura7__twice__04",
+        "url": "https://zenodo.org/records/14189505",
+        "type": "experiment",
+        "authors": [
+            "Munoz, Alan F."
+        ],
+        "tags": [
+            "yeast",
+            "fluorescence microscopy",
+            "time-lapse",
+            "data:images",
+            "id:swainlab-munoz-yeast-fluorescence-time-series",
+            "zenodo",
+            "glucose shift",
+            "dual pH",
+            "phluorin",
+            "URA7",
+            "GLT1",
+            "PSA1",
+            "2 parts"
+        ],
+        "metadata": [
+            {
+                "type": "dataset",
+                "url": "https://zenodo.org/records/14189600"
+            }
+        ]
+    },
+    {
+        "id": "swainlab-munoz-19328-2020-10-31-downupshift-four-2-0-2-glu-dual-phl-glt1-ura8-ura8",
+        "name": "19328_2020_10_31_downUpshift_four_2_0_2_glu_dual_phl__glt1_ura8_ura8__00",
+        "url": "https://zenodo.org/records/14189634",
+        "type": "experiment",
+        "authors": [
+            "Munoz, Alan F."
+        ],
+        "tags": [
+            "yeast",
+            "fluorescence microscopy",
+            "time-lapse",
+            "data:images",
+            "id:swainlab-munoz-yeast-fluorescence-time-series",
+            "zenodo",
+            "glucose shift",
+            "dual pH",
+            "phluorin",
+            "URA8",
+            "GLT1",
+            "3 parts"
+        ],
+        "metadata": [
+            {
+                "type": "dataset",
+                "url": "https://zenodo.org/records/14189728"
+            },
+            {
+                "type": "dataset",
+                "url": "https://zenodo.org/records/14189847"
+            }
+        ]
+    },
+    {
+        "id": "swainlab-munoz-19447-2020-11-18-downupshift-2-0-2-glu-gcd2-gcd6-gcd7",
+        "name": "19447_2020_11_18_downUpshift_2_0_2_glu_gcd2_gcd6_gcd7__02",
+        "url": "https://zenodo.org/records/14189933",
+        "type": "experiment",
+        "authors": [
+            "Munoz, Alan F."
+        ],
+        "tags": [
+            "yeast",
+            "fluorescence microscopy",
+            "time-lapse",
+            "data:images",
+            "id:swainlab-munoz-yeast-fluorescence-time-series",
+            "zenodo",
+            "glucose shift",
+            "GCD2",
+            "GCD6",
+            "GCD7",
+            "2 parts"
+        ],
+        "metadata": [
+            {
+                "type": "dataset",
+                "url": "https://zenodo.org/records/14190058"
+            }
+        ]
+    },
+    {
+        "id": "swainlab-munoz-673-2023-02-13-proteinaggregates-starvation-2-0-twice-ura7ha-ura7hr-ura8-ura8ha-ura8hr",
+        "name": "673_2023_02_13_proteinAggregates_starvation_2_0_twice_ura7ha_ura7hr_ura8_ura8ha_ura8hr_00",
+        "url": "https://zenodo.org/records/14190137",
+        "type": "experiment",
+        "authors": [
+            "Munoz, Alan F."
+        ],
+        "tags": [
+            "yeast",
+            "fluorescence microscopy",
+            "time-lapse",
+            "data:images",
+            "id:swainlab-munoz-yeast-fluorescence-time-series",
+            "zenodo",
+            "protein aggregation",
+            "starvation",
+            "URA7",
+            "URA8",
+            "5 parts"
+        ],
+        "metadata": [
+            {
+                "type": "dataset",
+                "url": "https://zenodo.org/records/14190257"
+            },
+            {
+                "type": "dataset",
+                "url": "https://zenodo.org/records/14190396"
+            },
+            {
+                "type": "dataset",
+                "url": "https://zenodo.org/records/14190606"
+            },
+            {
+                "type": "dataset",
+                "url": "https://zenodo.org/records/14190904"
+            }
+        ]
+    },
+    {
+        "id": "swainlab-munoz-918-2023-02-28-starve-2-0-2-0-ura7ha-ura7hr-ura8-ura8ha-ura8hr",
+        "name": "918_2023_02_28_starve_2_0_2_0_ura7ha_ura7hr_ura8_ura8ha_ura8hr_00",
+        "url": "https://zenodo.org/records/14191026",
+        "type": "experiment",
+        "authors": [
+            "Munoz, Alan F."
+        ],
+        "tags": [
+            "yeast",
+            "fluorescence microscopy",
+            "time-lapse",
+            "data:images",
+            "id:swainlab-munoz-yeast-fluorescence-time-series",
+            "zenodo",
+            "starvation",
+            "URA7",
+            "URA8",
+            "2 parts"
+        ],
+        "metadata": [
+            {
+                "type": "dataset",
+                "url": "https://zenodo.org/records/14191292"
+            }
+        ]
+    },
+    {
+        "id": "swainlab-munoz-921-2023-03-01-aggregates-starve-twice-glu-2-0-gcd2-gcd6-gcd7-gcn3-sui2",
+        "name": "921_2023_03_01_aggregates_starve_twice_glu_2_0_gcd2_gcd6_gcd7_gcn3_sui2_00",
+        "url": "https://zenodo.org/records/14191444",
+        "type": "experiment",
+        "authors": [
+            "Munoz, Alan F."
+        ],
+        "tags": [
+            "yeast",
+            "fluorescence microscopy",
+            "time-lapse",
+            "data:images",
+            "id:swainlab-munoz-yeast-fluorescence-time-series",
+            "zenodo",
+            "protein aggregation",
+            "starvation",
+            "GCD2",
+            "GCD6",
+            "GCD7",
+            "GCN3",
+            "SUI2",
+            "2 parts"
+        ],
+        "metadata": [
+            {
+                "type": "dataset",
+                "url": "https://zenodo.org/records/14191670"
             }
         ]
     },
