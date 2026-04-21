@@ -14,6 +14,14 @@ Each entry has the following fields:
 | `type`    | string   | One of `experiment`, `experiment collection`, or `large-scale database` |
 | `authors` | string[] | Author names or institutions                                       |
 | `tags`    | string[] | Descriptive tags (organism, modality, scale, etc.)                 |
+| `metadata`| object[] | Associated references (see below)                                  |
+
+Each metadata entry is an object with:
+
+| Field     | Type   | Description                                                              |
+|-----------|--------|--------------------------------------------------------------------------|
+| `type`    | string | One of `article`, `dataset`, or `url`                                    |
+| `url`     | string | Link to the resource (DOI URL, dataset URL, etc.)                        |
 
 Entries are sorted alphabetically by `id`.
 
@@ -31,3 +39,21 @@ Tags are free-form strings with two special conventions:
 - **experiment** -- A single study or dataset.
 - **experiment collection** -- A group of related experiments (e.g., a Zenodo community, a multi-condition study).
 - **large-scale database** -- A major public repository or consortium-scale resource.
+
+## Querying
+
+Find datasets by tag using `jq`:
+
+```bash
+# All image datasets
+jq -r '.[] | select(.tags[] | contains("data:images")) | "\(.name)\t\(.url)"' sources.json
+
+# All mouse brain expression datasets
+jq -r '.[] | select((.tags | any(. == "data:expression")) and (.tags | any(. == "mouse"))) | "\(.name)\t\(.url)"' sources.json
+
+# All datasets in a collection (e.g., ABC Atlas)
+jq -r '.[] | select(.tags[] | . == "id:abc-atlas") | "\(.name)\t\(.url)"' sources.json
+
+# List all unique tags
+jq -r '[.[].tags[]] | unique[]' sources.json
+```

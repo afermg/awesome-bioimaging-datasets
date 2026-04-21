@@ -15,6 +15,12 @@
             "id:abc-atlas",
             "atlas",
             "data:images"
+        ],
+        "metadata": [
+            {
+                "type": "article",
+                "url": "https://doi.org/10.1101/2023.03.06.531121"
+            }
         ]
     },
     {
@@ -37,7 +43,8 @@
             "id:abc-atlas",
             "atlas",
             "data:expression"
-        ]
+        ],
+        "metadata": []
     },
     {
         "id": "abc-atlas",
@@ -60,7 +67,8 @@
             "atlas",
             "data:expression",
             "data:images"
-        ]
+        ],
+        "metadata": []
     },
     {
         "id": "abc-consensus-wmb",
@@ -80,7 +88,8 @@
             "id:abc-atlas",
             "atlas",
             "data:expression"
-        ]
+        ],
+        "metadata": []
     },
     {
         "id": "abc-dev-mouse-vis-cortex",
@@ -100,7 +109,8 @@
             "id:abc-atlas",
             "atlas",
             "data:expression"
-        ]
+        ],
+        "metadata": []
     },
     {
         "id": "abc-hmba-bg",
@@ -123,7 +133,8 @@
             "id:abc-atlas",
             "atlas",
             "data:expression"
-        ]
+        ],
+        "metadata": []
     },
     {
         "id": "abc-merfish-c57bl6j",
@@ -142,6 +153,12 @@
             "id:abc-atlas",
             "atlas",
             "data:expression"
+        ],
+        "metadata": [
+            {
+                "type": "article",
+                "url": "https://doi.org/10.1101/2023.03.06.531121"
+            }
         ]
     },
     {
@@ -160,6 +177,12 @@
             "id:abc-atlas",
             "atlas",
             "data:expression"
+        ],
+        "metadata": [
+            {
+                "type": "article",
+                "url": "https://doi.org/10.1101/2023.03.06.531121"
+            }
         ]
     },
     {
@@ -178,6 +201,12 @@
             "id:abc-atlas",
             "atlas",
             "data:expression"
+        ],
+        "metadata": [
+            {
+                "type": "article",
+                "url": "https://doi.org/10.1126/science.add7046"
+            }
         ]
     },
     {
@@ -195,6 +224,12 @@
             "id:abc-atlas",
             "atlas",
             "data:expression"
+        ],
+        "metadata": [
+            {
+                "type": "article",
+                "url": "https://doi.org/10.1101/2023.03.06.531121"
+            }
         ]
     },
     {
@@ -213,6 +248,12 @@
             "id:abc-atlas",
             "atlas",
             "data:expression"
+        ],
+        "metadata": [
+            {
+                "type": "article",
+                "url": "https://doi.org/10.1101/2023.03.06.531121"
+            }
         ]
     },
     {
@@ -231,6 +272,12 @@
             "id:abc-atlas",
             "atlas",
             "data:expression"
+        ],
+        "metadata": [
+            {
+                "type": "article",
+                "url": "https://doi.org/10.1101/2023.03.06.531121"
+            }
         ]
     },
     {
@@ -248,6 +295,12 @@
             "id:abc-atlas",
             "atlas",
             "data:expression"
+        ],
+        "metadata": [
+            {
+                "type": "article",
+                "url": "https://doi.org/10.1101/2023.03.06.531121"
+            }
         ]
     },
     {
@@ -266,6 +319,12 @@
             "id:abc-atlas",
             "atlas",
             "data:expression"
+        ],
+        "metadata": [
+            {
+                "type": "article",
+                "url": "https://doi.org/10.1101/2023.03.06.531121"
+            }
         ]
     },
     {
@@ -286,7 +345,8 @@
             "id:abc-atlas",
             "atlas",
             "data:expression"
-        ]
+        ],
+        "metadata": []
     },
     {
         "id": "abc-zhuang-abca-1",
@@ -307,6 +367,12 @@
             "id:abc-atlas",
             "atlas",
             "data:expression"
+        ],
+        "metadata": [
+            {
+                "type": "article",
+                "url": "https://doi.org/10.1101/2023.03.06.531348"
+            }
         ]
     },
     {
@@ -328,6 +394,12 @@
             "id:abc-atlas",
             "atlas",
             "data:expression"
+        ],
+        "metadata": [
+            {
+                "type": "article",
+                "url": "https://doi.org/10.1101/2023.03.06.531348"
+            }
         ]
     },
     {
@@ -349,6 +421,12 @@
             "id:abc-atlas",
             "atlas",
             "data:expression"
+        ],
+        "metadata": [
+            {
+                "type": "article",
+                "url": "https://doi.org/10.1101/2023.03.06.531348"
+            }
         ]
     },
     {
@@ -370,6 +448,48 @@
             "id:abc-atlas",
             "atlas",
             "data:expression"
+        ],
+        "metadata": [
+            {
+                "type": "article",
+                "url": "https://doi.org/10.1101/2023.03.06.531348"
+            }
+        ]
+    },
+    {
+        "id": "atheylab-kalinin-astrocyte-nuclear-morphology",
+        "name": "Valproic acid-induced changes of 4D nuclear morphology in astrocyte cells",
+        "url": "https://zenodo.org/records/15594999",
+        "type": "experiment",
+        "authors": [
+            "Kalinin, Alexandr A.",
+            "Hou, Xinhai",
+            "Ade, Alex S.",
+            "Fon, Gordon-Victor",
+            "Meixner, Walter",
+            "Higgins, Gerald A.",
+            "Sexton, Jonathan",
+            "Wan, Xiang",
+            "Dinov, Ivo",
+            "O'Meara, Matthew",
+            "Athey, Brian"
+        ],
+        "tags": [
+            "human",
+            "astrocytes",
+            "fluorescence microscopy",
+            "3D imaging",
+            "confocal microscopy",
+            "nuclear morphology",
+            "valproic acid",
+            "cell segmentation",
+            "data:images"
+        ],
+        "metadata": [
+            {
+                "type": "article",
+                "url": "https://doi.org/10.1091/mbc.E20-08-0502"
+            }
         ]
     },
     {
@@ -391,6 +511,12 @@
             "E. coli",
             "benchmark",
             "data:images"
+        ],
+        "metadata": [
+            {
+                "type": "article",
+                "url": "https://doi.org/10.48550/arXiv.2411.00552"
+            }
         ]
     },
     {
@@ -412,7 +538,8 @@
             "20+ modalities",
             "EMBL",
             "data:images"
-        ]
+        ],
+        "metadata": []
     },
     {
         "id": "broad-cellpose-brightfield",
@@ -430,7 +557,8 @@
             "id:broad-imaging",
             "zenodo",
             "model"
-        ]
+        ],
+        "metadata": []
     },
     {
         "id": "broad-cp-measure-analysis",
@@ -448,7 +576,8 @@
             "zenodo",
             "benchmark",
             "data:morphological_profiles"
-        ]
+        ],
+        "metadata": []
     },
     {
         "id": "broad-imaging",
@@ -468,7 +597,8 @@
             "zenodo",
             "data:images",
             "data:morphological_profiles"
-        ]
+        ],
+        "metadata": []
     },
     {
         "id": "broad-nahual-sample",
@@ -484,7 +614,8 @@
             "id:broad-imaging",
             "zenodo",
             "data:images"
-        ]
+        ],
+        "metadata": []
     },
     {
         "id": "carpentersinghlab-haghighi-mitochondria-psychosis",
@@ -504,6 +635,12 @@
             "therapeutic screening",
             "data:images",
             "data:morphological_profiles"
+        ],
+        "metadata": [
+            {
+                "type": "article",
+                "url": "https://doi.org/10.1101/2025.10.08.676630"
+            }
         ]
     },
     {
@@ -525,6 +662,12 @@
             "atlas",
             "data:images",
             "data:morphological_profiles"
+        ],
+        "metadata": [
+            {
+                "type": "article",
+                "url": "https://doi.org/10.1093/gigascience/gix027"
+            }
         ]
     },
     {
@@ -544,6 +687,12 @@
             "75 studies",
             "benchmark",
             "data:images"
+        ],
+        "metadata": [
+            {
+                "type": "article",
+                "url": "https://doi.org/10.48550/arXiv.2512.20833"
+            }
         ]
     },
     {
@@ -567,7 +716,8 @@
             "benchmark",
             "data:images",
             "data:morphological_profiles"
-        ]
+        ],
+        "metadata": []
     },
     {
         "id": "czi-viscy",
@@ -587,6 +737,12 @@
             "cell dynamics",
             "model",
             "data:images"
+        ],
+        "metadata": [
+            {
+                "type": "article",
+                "url": "https://doi.org/10.1038/s42256-025-01046-2"
+            }
         ]
     },
     {
@@ -606,7 +762,8 @@
             "multiplexed imaging",
             "nanometer resolution",
             "data:images"
-        ]
+        ],
+        "metadata": []
     },
     {
         "id": "empiar",
@@ -627,7 +784,8 @@
             "8.3 PB",
             "EMBL",
             "data:images"
-        ]
+        ],
+        "metadata": []
     },
     {
         "id": "idr",
@@ -646,7 +804,8 @@
             "multi-organism",
             "digital pathology",
             "data:images"
-        ]
+        ],
+        "metadata": []
     },
     {
         "id": "jump-cell-painting",
@@ -668,6 +827,12 @@
             "id:cell-painting-gallery",
             "data:images",
             "data:morphological_profiles"
+        ],
+        "metadata": [
+            {
+                "type": "article",
+                "url": "https://doi.org/10.1093/gigascience/gix027"
+            }
         ]
     },
     {
@@ -686,6 +851,7 @@
             "protein aggregation",
             "genetics",
             "data:images"
-        ]
+        ],
+        "metadata": []
     }
 ]
