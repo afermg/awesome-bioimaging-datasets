@@ -1,6 +1,6 @@
 # Awesome Bioimaging Datasets
 
-A catalog of public biological imaging datasets, with some omics and expression resources, in `sources.json`.
+A catalog of public biological imaging datasets, with some omics and expression resources, in `sources.json`. I tried to list all the datasets (or dataset-containing databases) that I know of. It is mostly focused on imaging data, but some omics adjacent data may have slip by.
 
 **56 datasets** across 12 databases, 4 collections, and 40 individual experiments.
 
