@@ -1,1 +1,691 @@
-{"Bacteria single cell tracking": "https://zenodo.org/records/7260137"}
+[
+    {
+        "id": "abc-allen-ccf-2020",
+        "name": "Allen-CCF-2020: Mouse brain common coordinate framework",
+        "url": "https://alleninstitute.github.io/abc_atlas_access/descriptions/Allen-CCF-2020.html",
+        "type": "experiment",
+        "authors": [
+            "Allen Institute for Brain Science"
+        ],
+        "tags": [
+            "mouse",
+            "reference atlas",
+            "3D coordinates",
+            "10um voxel",
+            "id:abc-atlas",
+            "atlas",
+            "data:images"
+        ]
+    },
+    {
+        "id": "abc-asap-pmdbs",
+        "name": "ASAP-PMDBS: Human postmortem brain sequencing (Parkinson's focus)",
+        "url": "https://alleninstitute.github.io/abc_atlas_access/descriptions/ASAP-PMDBS-10X.html",
+        "type": "experiment",
+        "authors": [
+            "ASAP",
+            "MJFF",
+            "Allen Institute"
+        ],
+        "tags": [
+            "human",
+            "snRNA-seq",
+            "Parkinson's disease",
+            "3M cells",
+            "211 donors",
+            "9 brain regions",
+            "id:abc-atlas",
+            "atlas",
+            "data:expression"
+        ]
+    },
+    {
+        "id": "abc-atlas",
+        "name": "Allen Brain Cell Atlas (ABC Atlas)",
+        "url": "https://alleninstitute.github.io/abc_atlas_access/intro.html",
+        "type": "large-scale database",
+        "authors": [
+            "Allen Institute for Brain Science"
+        ],
+        "tags": [
+            "neuroscience",
+            "transcriptomics",
+            "spatial transcriptomics",
+            "mouse brain",
+            "human brain",
+            "single-cell RNA-seq",
+            "MERFISH",
+            "cell type taxonomy",
+            "Allen Institute",
+            "atlas",
+            "data:expression",
+            "data:images"
+        ]
+    },
+    {
+        "id": "abc-consensus-wmb",
+        "name": "Consensus-WMB: Integrated AIBS + Macosko mouse brain transcriptomes",
+        "url": "https://alleninstitute.github.io/abc_atlas_access/descriptions/Consensus-WMB-10X.html",
+        "type": "experiment",
+        "authors": [
+            "Macosko, Evan",
+            "Zeng, Hongkui"
+        ],
+        "tags": [
+            "mouse",
+            "scRNA-seq",
+            "snRNA-seq",
+            "8M cells",
+            "consensus taxonomy",
+            "id:abc-atlas",
+            "atlas",
+            "data:expression"
+        ]
+    },
+    {
+        "id": "abc-dev-mouse-vis-cortex",
+        "name": "Dev-Mouse-Vis-Cortex: Developing mouse visual cortex transcriptomics",
+        "url": "https://alleninstitute.github.io/abc_atlas_access/descriptions/Dev-Mouse-Vis-Cortex-10X.html",
+        "type": "experiment",
+        "authors": [
+            "Zeng, Hongkui"
+        ],
+        "tags": [
+            "mouse",
+            "development",
+            "visual cortex",
+            "scRNA-seq",
+            "568K cells",
+            "embryonic to adult",
+            "id:abc-atlas",
+            "atlas",
+            "data:expression"
+        ]
+    },
+    {
+        "id": "abc-hmba-bg",
+        "name": "HMBA-BG: Cross-species basal ganglia (human, macaque, marmoset)",
+        "url": "https://alleninstitute.github.io/abc_atlas_access/descriptions/HMBA-10XMultiome-BG.html",
+        "type": "experiment collection",
+        "authors": [
+            "Allen Institute for Brain Science"
+        ],
+        "tags": [
+            "human",
+            "macaque",
+            "marmoset",
+            "basal ganglia",
+            "multiome",
+            "MERSCOPE",
+            "Xenium",
+            "Patch-seq",
+            "cross-species",
+            "id:abc-atlas",
+            "atlas",
+            "data:expression"
+        ]
+    },
+    {
+        "id": "abc-merfish-c57bl6j",
+        "name": "MERFISH-C57BL6J-638850: Mouse brain MERFISH spatial transcriptomics",
+        "url": "https://alleninstitute.github.io/abc_atlas_access/descriptions/MERFISH-C57BL6J-638850.html",
+        "type": "experiment",
+        "authors": [
+            "Yao, Zizhen"
+        ],
+        "tags": [
+            "mouse",
+            "MERFISH",
+            "spatial transcriptomics",
+            "4M cells",
+            "500-gene panel",
+            "id:abc-atlas",
+            "atlas",
+            "data:expression"
+        ]
+    },
+    {
+        "id": "abc-merfish-c57bl6j-imputed",
+        "name": "MERFISH-C57BL6J-638850-imputed: Imputed gene expression in MERFISH space",
+        "url": "https://alleninstitute.github.io/abc_atlas_access/descriptions/MERFISH-C57BL6J-638850-imputed.html",
+        "type": "experiment",
+        "authors": [
+            "Yao, Zizhen"
+        ],
+        "tags": [
+            "mouse",
+            "MERFISH",
+            "imputed expression",
+            "8460 genes",
+            "id:abc-atlas",
+            "atlas",
+            "data:expression"
+        ]
+    },
+    {
+        "id": "abc-whb",
+        "name": "WHB: Whole human brain single-nucleus transcriptomics",
+        "url": "https://alleninstitute.github.io/abc_atlas_access/descriptions/WHB-10Xv3.html",
+        "type": "experiment",
+        "authors": [
+            "Siletti, Kimberly"
+        ],
+        "tags": [
+            "human",
+            "snRNA-seq",
+            "3M nuclei",
+            "100 brain regions",
+            "id:abc-atlas",
+            "atlas",
+            "data:expression"
+        ]
+    },
+    {
+        "id": "abc-wmb-10xmulti",
+        "name": "WMB-10XMulti: Mouse whole brain 10X Multiome (RNA + chromatin)",
+        "url": "https://alleninstitute.github.io/abc_atlas_access/descriptions/WMB-10XMulti.html",
+        "type": "experiment",
+        "authors": [
+            "Yao, Zizhen"
+        ],
+        "tags": [
+            "mouse",
+            "multiome",
+            "chromatin accessibility",
+            "id:abc-atlas",
+            "atlas",
+            "data:expression"
+        ]
+    },
+    {
+        "id": "abc-wmb-10xv2",
+        "name": "WMB-10Xv2: Mouse whole brain 10Xv2 scRNA-seq",
+        "url": "https://alleninstitute.github.io/abc_atlas_access/descriptions/WMB-10Xv2.html",
+        "type": "experiment",
+        "authors": [
+            "Yao, Zizhen"
+        ],
+        "tags": [
+            "mouse",
+            "scRNA-seq",
+            "10Xv2",
+            "1.7M cells",
+            "id:abc-atlas",
+            "atlas",
+            "data:expression"
+        ]
+    },
+    {
+        "id": "abc-wmb-10xv3",
+        "name": "WMB-10Xv3: Mouse whole brain 10Xv3 scRNA-seq",
+        "url": "https://alleninstitute.github.io/abc_atlas_access/descriptions/WMB-10Xv3.html",
+        "type": "experiment",
+        "authors": [
+            "Yao, Zizhen"
+        ],
+        "tags": [
+            "mouse",
+            "scRNA-seq",
+            "10Xv3",
+            "2.3M cells",
+            "id:abc-atlas",
+            "atlas",
+            "data:expression"
+        ]
+    },
+    {
+        "id": "abc-wmb-neighborhoods",
+        "name": "WMB-neighborhoods: Brain structure neighborhood embeddings",
+        "url": "https://alleninstitute.github.io/abc_atlas_access/descriptions/WMB-neighborhoods.html",
+        "type": "experiment",
+        "authors": [
+            "Yao, Zizhen"
+        ],
+        "tags": [
+            "mouse",
+            "UMAP",
+            "brain regions",
+            "id:abc-atlas",
+            "atlas",
+            "data:expression"
+        ]
+    },
+    {
+        "id": "abc-wmb-taxonomy",
+        "name": "WMB-taxonomy: Mouse whole brain cell type taxonomy",
+        "url": "https://alleninstitute.github.io/abc_atlas_access/descriptions/WMB-taxonomy.html",
+        "type": "experiment",
+        "authors": [
+            "Yao, Zizhen"
+        ],
+        "tags": [
+            "mouse",
+            "cell type taxonomy",
+            "5322 clusters",
+            "338 subclasses",
+            "id:abc-atlas",
+            "atlas",
+            "data:expression"
+        ]
+    },
+    {
+        "id": "abc-zeng-aging-mouse",
+        "name": "Zeng-Aging-Mouse: Young vs aged mouse brain transcriptomics",
+        "url": "https://alleninstitute.github.io/abc_atlas_access/descriptions/Zeng-Aging-Mouse-10Xv3.html",
+        "type": "experiment",
+        "authors": [
+            "Zeng, Hongkui"
+        ],
+        "tags": [
+            "mouse",
+            "aging",
+            "scRNA-seq",
+            "10Xv3",
+            "1.2M cells",
+            "differential expression",
+            "id:abc-atlas",
+            "atlas",
+            "data:expression"
+        ]
+    },
+    {
+        "id": "abc-zhuang-abca-1",
+        "name": "Zhuang-ABCA-1: MERFISH 147 coronal sections, mouse brain",
+        "url": "https://alleninstitute.github.io/abc_atlas_access/descriptions/Zhuang-ABCA-1.html",
+        "type": "experiment",
+        "authors": [
+            "Zhang, Meng",
+            "Zhuang, Xiaowei"
+        ],
+        "tags": [
+            "mouse",
+            "MERFISH",
+            "spatial transcriptomics",
+            "4.2M cells",
+            "1122 genes",
+            "coronal",
+            "id:abc-atlas",
+            "atlas",
+            "data:expression"
+        ]
+    },
+    {
+        "id": "abc-zhuang-abca-2",
+        "name": "Zhuang-ABCA-2: MERFISH 66 coronal sections, mouse brain",
+        "url": "https://alleninstitute.github.io/abc_atlas_access/descriptions/Zhuang-ABCA-2.html",
+        "type": "experiment",
+        "authors": [
+            "Zhang, Meng",
+            "Zhuang, Xiaowei"
+        ],
+        "tags": [
+            "mouse",
+            "MERFISH",
+            "spatial transcriptomics",
+            "1.9M cells",
+            "1122 genes",
+            "coronal",
+            "id:abc-atlas",
+            "atlas",
+            "data:expression"
+        ]
+    },
+    {
+        "id": "abc-zhuang-abca-3",
+        "name": "Zhuang-ABCA-3: MERFISH 23 sagittal sections, mouse brain",
+        "url": "https://alleninstitute.github.io/abc_atlas_access/descriptions/Zhuang-ABCA-3.html",
+        "type": "experiment",
+        "authors": [
+            "Zhang, Meng",
+            "Zhuang, Xiaowei"
+        ],
+        "tags": [
+            "mouse",
+            "MERFISH",
+            "spatial transcriptomics",
+            "2.1M cells",
+            "1122 genes",
+            "sagittal",
+            "id:abc-atlas",
+            "atlas",
+            "data:expression"
+        ]
+    },
+    {
+        "id": "abc-zhuang-abca-4",
+        "name": "Zhuang-ABCA-4: MERFISH 3 sagittal sections, mouse brain",
+        "url": "https://alleninstitute.github.io/abc_atlas_access/descriptions/Zhuang-ABCA-4.html",
+        "type": "experiment",
+        "authors": [
+            "Zhang, Meng",
+            "Zhuang, Xiaowei"
+        ],
+        "tags": [
+            "mouse",
+            "MERFISH",
+            "spatial transcriptomics",
+            "0.22M cells",
+            "1122 genes",
+            "sagittal",
+            "id:abc-atlas",
+            "atlas",
+            "data:expression"
+        ]
+    },
+    {
+        "id": "bacteria-single-cell-tracking",
+        "name": "Bacteria single cell tracking",
+        "url": "https://zenodo.org/records/7260137",
+        "type": "experiment",
+        "authors": [
+            "Seiffarth, Johannes"
+        ],
+        "tags": [
+            "cell tracking",
+            "segmentation",
+            "phase-contrast microscopy",
+            "time-lapse",
+            "Corynebacterium glutamicum",
+            "bacteria",
+            "microfluidics",
+            "E. coli",
+            "benchmark",
+            "data:images"
+        ]
+    },
+    {
+        "id": "bioimage-archive",
+        "name": "BioImage Archive",
+        "url": "https://www.ebi.ac.uk/bioimage-archive/",
+        "type": "large-scale database",
+        "authors": [
+            "EMBL-EBI"
+        ],
+        "tags": [
+            "biological imaging",
+            "multi-modal",
+            "light microscopy",
+            "super-resolution",
+            "FAIR data",
+            "REMBI",
+            "open data",
+            "20+ modalities",
+            "EMBL",
+            "data:images"
+        ]
+    },
+    {
+        "id": "broad-cellpose-brightfield",
+        "name": "Custom Cellpose models for segmentation of brightfield images",
+        "url": "https://zenodo.org/records/15602078",
+        "type": "experiment",
+        "authors": [
+            "Liu, Le"
+        ],
+        "tags": [
+            "Cellpose",
+            "segmentation",
+            "brightfield",
+            "deep learning",
+            "id:broad-imaging",
+            "zenodo",
+            "model"
+        ]
+    },
+    {
+        "id": "broad-cp-measure-analysis",
+        "name": "CellProfiler Analysis for cp_measure",
+        "url": "https://zenodo.org/records/15505477",
+        "type": "experiment",
+        "authors": [
+            "Dasgupta, Shatavisha"
+        ],
+        "tags": [
+            "CellProfiler",
+            "cp_measure",
+            "analysis",
+            "id:broad-imaging",
+            "zenodo",
+            "benchmark",
+            "data:morphological_profiles"
+        ]
+    },
+    {
+        "id": "broad-imaging",
+        "name": "Broad Institute Imaging Platform (Zenodo community)",
+        "url": "https://zenodo.org/communities/broad-imaging/records",
+        "type": "experiment collection",
+        "authors": [
+            "Broad Institute Imaging Platform"
+        ],
+        "tags": [
+            "cell painting",
+            "morphological profiling",
+            "image-based profiling",
+            "JUMP-CP",
+            "CellProfiler",
+            "Broad Institute",
+            "zenodo",
+            "data:images",
+            "data:morphological_profiles"
+        ]
+    },
+    {
+        "id": "broad-nahual-sample",
+        "name": "Sample data for Nahual",
+        "url": "https://zenodo.org/records/16930133",
+        "type": "experiment",
+        "authors": [
+            "Munoz, Alan F."
+        ],
+        "tags": [
+            "sample data",
+            "Nahual",
+            "id:broad-imaging",
+            "zenodo",
+            "data:images"
+        ]
+    },
+    {
+        "id": "carpentersinghlab-haghighi-mitochondria-psychosis",
+        "name": "Abnormal mitochondrial localization associated with psychoses",
+        "url": "https://zenodo.org/records/15390513",
+        "type": "experiment",
+        "authors": [
+            "Haghighi, Marzieh"
+        ],
+        "tags": [
+            "human",
+            "skin fibroblasts",
+            "fluorescence microscopy",
+            "mitochondria",
+            "psychiatric disorders",
+            "cell painting",
+            "therapeutic screening",
+            "data:images",
+            "data:morphological_profiles"
+        ]
+    },
+    {
+        "id": "cell-painting-gallery",
+        "name": "Cell Painting Gallery",
+        "url": "https://registry.opendata.aws/cellpainting-gallery/",
+        "type": "large-scale database",
+        "authors": [
+            "Carpenter-Singh Lab",
+            "Cimini Lab"
+        ],
+        "tags": [
+            "cell painting",
+            "fluorescence microscopy",
+            "image-based profiling",
+            "high-throughput imaging",
+            "drug discovery",
+            "open data",
+            "atlas",
+            "data:images",
+            "data:morphological_profiles"
+        ]
+    },
+    {
+        "id": "chammi-75",
+        "name": "CHAMMI-75",
+        "url": "https://aws.amazon.com/marketplace/pp/prodview-2iqmvr5xnpstc",
+        "type": "large-scale database",
+        "authors": [
+            "Morgridge Institute for Research"
+        ],
+        "tags": [
+            "multi-channel microscopy",
+            "fluorescence microscopy",
+            "foundation models",
+            "channel-adaptive",
+            "2.8M images",
+            "75 studies",
+            "benchmark",
+            "data:images"
+        ]
+    },
+    {
+        "id": "cp-measure-benchmark",
+        "name": "Cell Painting benchmarking dataset (cp_measure)",
+        "url": "https://zenodo.org/records/18810082",
+        "type": "experiment",
+        "authors": [
+            "Munoz, Alan F."
+        ],
+        "tags": [
+            "cell painting",
+            "benchmarking",
+            "CellProfiler",
+            "morphological profiling",
+            "fluorescence microscopy",
+            "high-content screening",
+            "U2OS",
+            "JUMP-CP",
+            "id:broad-imaging",
+            "benchmark",
+            "data:images",
+            "data:morphological_profiles"
+        ]
+    },
+    {
+        "id": "czi-viscy",
+        "name": "CZI VisCy public datasets",
+        "url": "https://public.czbiohub.org/comp.micro/viscy/",
+        "type": "experiment collection",
+        "authors": [
+            "Mehta Lab, CZ Biohub San Francisco"
+        ],
+        "tags": [
+            "virtual staining",
+            "label-free imaging",
+            "OME-Zarr",
+            "deep learning",
+            "time-lapse",
+            "contrastive learning",
+            "cell dynamics",
+            "model",
+            "data:images"
+        ]
+    },
+    {
+        "id": "e11-prism",
+        "name": "E11-PRISM",
+        "url": "https://registry.opendata.aws/e11bio-prism/",
+        "type": "large-scale database",
+        "authors": [
+            "E11 Bio"
+        ],
+        "tags": [
+            "neuroscience",
+            "mouse brain",
+            "expansion microscopy",
+            "light microscopy",
+            "hippocampus",
+            "multiplexed imaging",
+            "nanometer resolution",
+            "data:images"
+        ]
+    },
+    {
+        "id": "empiar",
+        "name": "Electron Microscopy Public Image Archive (EMPIAR)",
+        "url": "https://www.ebi.ac.uk/empiar/",
+        "type": "large-scale database",
+        "authors": [
+            "EMBL-EBI"
+        ],
+        "tags": [
+            "electron microscopy",
+            "cryo-EM",
+            "cryo-electron tomography",
+            "volume EM",
+            "X-ray tomography",
+            "structural biology",
+            "single-particle analysis",
+            "8.3 PB",
+            "EMBL",
+            "data:images"
+        ]
+    },
+    {
+        "id": "idr",
+        "name": "Image Data Resource (IDR)",
+        "url": "https://idr.openmicroscopy.org/",
+        "type": "large-scale database",
+        "authors": [
+            "Open Microscopy Environment (OME)"
+        ],
+        "tags": [
+            "reference images",
+            "high-content screening",
+            "light sheet microscopy",
+            "OMERO",
+            "phenotype annotations",
+            "multi-organism",
+            "digital pathology",
+            "data:images"
+        ]
+    },
+    {
+        "id": "jump-cell-painting",
+        "name": "JUMP Cell Painting",
+        "url": "https://cellpainting-gallery.s3.amazonaws.com/index.html#cpg0016-jump/",
+        "type": "large-scale database",
+        "authors": [
+            "JUMP Cell Painting Consortium"
+        ],
+        "tags": [
+            "cell painting",
+            "morphological profiling",
+            "high-content screening",
+            "chemical perturbations",
+            "genetic perturbations",
+            "CRISPR",
+            "drug discovery",
+            "U2OS",
+            "id:cell-painting-gallery",
+            "data:images",
+            "data:morphological_profiles"
+        ]
+    },
+    {
+        "id": "swainlab-munoz-yeast-fluorescence-time-series",
+        "name": "Yeast time series data and fluorescence",
+        "url": "https://github.com/afermg/lots_of_images/blob/master/metadata/manifest.csv",
+        "type": "experiment collection",
+        "authors": [
+            "Munoz, Alan F."
+        ],
+        "tags": [
+            "yeast",
+            "fluorescence microscopy",
+            "time-lapse",
+            "stress response",
+            "protein aggregation",
+            "genetics",
+            "data:images"
+        ]
+    }
+]
