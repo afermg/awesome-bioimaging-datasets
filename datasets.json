@@ -9,6 +9,7 @@
         ],
         "tags": [
             "mouse",
+            "Mus musculus",
             "reference atlas",
             "3D coordinates",
             "10um voxel",
@@ -35,6 +36,7 @@
         ],
         "tags": [
             "human",
+            "Homo sapiens",
             "snRNA-seq",
             "Parkinson's disease",
             "3M cells",
@@ -81,6 +83,7 @@
         ],
         "tags": [
             "mouse",
+            "Mus musculus",
             "scRNA-seq",
             "snRNA-seq",
             "8M cells",
@@ -101,6 +104,7 @@
         ],
         "tags": [
             "mouse",
+            "Mus musculus",
             "development",
             "visual cortex",
             "scRNA-seq",
@@ -122,8 +126,11 @@
         ],
         "tags": [
             "human",
+            "Homo sapiens",
             "macaque",
+            "Macaca mulatta",
             "marmoset",
+            "Callithrix jacchus",
             "basal ganglia",
             "multiome",
             "MERSCOPE",
@@ -146,6 +153,7 @@
         ],
         "tags": [
             "mouse",
+            "Mus musculus",
             "MERFISH",
             "spatial transcriptomics",
             "4M cells",
@@ -171,6 +179,7 @@
         ],
         "tags": [
             "mouse",
+            "Mus musculus",
             "MERFISH",
             "imputed expression",
             "8460 genes",
@@ -195,6 +204,7 @@
         ],
         "tags": [
             "human",
+            "Homo sapiens",
             "snRNA-seq",
             "3M nuclei",
             "100 brain regions",
@@ -219,6 +229,7 @@
         ],
         "tags": [
             "mouse",
+            "Mus musculus",
             "multiome",
             "chromatin accessibility",
             "dataset_id:abc-atlas",
@@ -242,6 +253,7 @@
         ],
         "tags": [
             "mouse",
+            "Mus musculus",
             "scRNA-seq",
             "10Xv2",
             "1.7M cells",
@@ -266,6 +278,7 @@
         ],
         "tags": [
             "mouse",
+            "Mus musculus",
             "scRNA-seq",
             "10Xv3",
             "2.3M cells",
@@ -290,6 +303,7 @@
         ],
         "tags": [
             "mouse",
+            "Mus musculus",
             "UMAP",
             "brain regions",
             "dataset_id:abc-atlas",
@@ -313,6 +327,7 @@
         ],
         "tags": [
             "mouse",
+            "Mus musculus",
             "cell type taxonomy",
             "5322 clusters",
             "338 subclasses",
@@ -337,6 +352,7 @@
         ],
         "tags": [
             "mouse",
+            "Mus musculus",
             "aging",
             "scRNA-seq",
             "10Xv3",
@@ -359,6 +375,7 @@
         ],
         "tags": [
             "mouse",
+            "Mus musculus",
             "MERFISH",
             "spatial transcriptomics",
             "4.2M cells",
@@ -386,6 +403,7 @@
         ],
         "tags": [
             "mouse",
+            "Mus musculus",
             "MERFISH",
             "spatial transcriptomics",
             "1.9M cells",
@@ -413,6 +431,7 @@
         ],
         "tags": [
             "mouse",
+            "Mus musculus",
             "MERFISH",
             "spatial transcriptomics",
             "2.1M cells",
@@ -440,6 +459,7 @@
         ],
         "tags": [
             "mouse",
+            "Mus musculus",
             "MERFISH",
             "spatial transcriptomics",
             "0.22M cells",
@@ -476,6 +496,7 @@
         ],
         "tags": [
             "human",
+            "Homo sapiens",
             "astrocytes",
             "fluorescence microscopy",
             "3D imaging",
@@ -509,6 +530,7 @@
             "bacteria",
             "microfluidics",
             "E. coli",
+            "Escherichia coli",
             "benchmark",
             "data:images"
         ],
@@ -589,6 +611,7 @@
         "tags": [
             "light microscopy",
             "arabidopsis",
+            "Arabidopsis thaliana",
             "cells",
             "instance segmentation",
             "3d",
@@ -672,6 +695,7 @@
         "tags": [
             "light-field microscopy",
             "medaka",
+            "Oryzias latipes",
             "fluorescence microscopy",
             "image reconstruction",
             "dataset_id:bioimage-io",
@@ -752,6 +776,7 @@
         "tags": [
             "light microscopy",
             "arabidopsis",
+            "Arabidopsis thaliana",
             "cells",
             "instance segmentation",
             "3d",
@@ -772,6 +797,7 @@
         "tags": [
             "electron microscopy",
             "platynereis",
+            "Platynereis dumerilii",
             "cells",
             "nuclei",
             "instance segmentation",
@@ -793,6 +819,7 @@
         "tags": [
             "electron microscopy",
             "drosophila",
+            "Drosophila melanogaster",
             "neurons",
             "instance segmentation",
             "dataset_id:bioimage-io",
@@ -869,6 +896,7 @@
         ],
         "tags": [
             "human",
+            "Homo sapiens",
             "skin fibroblasts",
             "fluorescence microscopy",
             "mitochondria",
@@ -975,6 +1003,7 @@
         ],
         "tags": [
             "human",
+            "Homo sapiens",
             "HEK293T",
             "confocal microscopy",
             "fluorescence microscopy",
@@ -1004,6 +1033,7 @@
         ],
         "tags": [
             "human",
+            "Homo sapiens",
             "microscopy",
             "immunofluorescence",
             "confocal microscopy",
@@ -1027,6 +1057,7 @@
         ],
         "tags": [
             "zebrafish",
+            "Danio rerio",
             "light-sheet microscopy",
             "developmental biology",
             "time-lapse",
@@ -1192,6 +1223,7 @@
         ],
         "tags": [
             "yeast",
+            "Saccharomyces cerevisiae",
             "fluorescence microscopy",
             "time-lapse",
             "data:images",
@@ -1223,6 +1255,7 @@
         ],
         "tags": [
             "yeast",
+            "Saccharomyces cerevisiae",
             "fluorescence microscopy",
             "time-lapse",
             "data:images",
@@ -1250,6 +1283,7 @@
         ],
         "tags": [
             "yeast",
+            "Saccharomyces cerevisiae",
             "fluorescence microscopy",
             "time-lapse",
             "data:images",
@@ -1278,6 +1312,7 @@
         ],
         "tags": [
             "yeast",
+            "Saccharomyces cerevisiae",
             "fluorescence microscopy",
             "time-lapse",
             "data:images",
@@ -1306,6 +1341,7 @@
         ],
         "tags": [
             "yeast",
+            "Saccharomyces cerevisiae",
             "fluorescence microscopy",
             "time-lapse",
             "data:images",
@@ -1334,6 +1370,7 @@
         ],
         "tags": [
             "yeast",
+            "Saccharomyces cerevisiae",
             "fluorescence microscopy",
             "time-lapse",
             "data:images",
@@ -1363,6 +1400,7 @@
         ],
         "tags": [
             "yeast",
+            "Saccharomyces cerevisiae",
             "fluorescence microscopy",
             "time-lapse",
             "data:images",
@@ -1393,6 +1431,7 @@
         ],
         "tags": [
             "yeast",
+            "Saccharomyces cerevisiae",
             "fluorescence microscopy",
             "time-lapse",
             "data:images",
@@ -1430,6 +1469,7 @@
         ],
         "tags": [
             "yeast",
+            "Saccharomyces cerevisiae",
             "fluorescence microscopy",
             "time-lapse",
             "data:images",
@@ -1454,6 +1494,7 @@
         ],
         "tags": [
             "yeast",
+            "Saccharomyces cerevisiae",
             "fluorescence microscopy",
             "time-lapse",
             "data:images",
@@ -1484,6 +1525,7 @@
         ],
         "tags": [
             "yeast",
+            "Saccharomyces cerevisiae",
             "fluorescence microscopy",
             "time-lapse",
             "data:images",
@@ -1514,6 +1556,7 @@
         ],
         "tags": [
             "yeast",
+            "Saccharomyces cerevisiae",
             "fluorescence microscopy",
             "time-lapse",
             "data:images",
@@ -1547,6 +1590,7 @@
         ],
         "tags": [
             "yeast",
+            "Saccharomyces cerevisiae",
             "fluorescence microscopy",
             "time-lapse",
             "data:images",
@@ -1575,6 +1619,7 @@
         ],
         "tags": [
             "yeast",
+            "Saccharomyces cerevisiae",
             "fluorescence microscopy",
             "time-lapse",
             "data:images",
@@ -1615,6 +1660,7 @@
         ],
         "tags": [
             "yeast",
+            "Saccharomyces cerevisiae",
             "fluorescence microscopy",
             "time-lapse",
             "data:images",
@@ -1642,6 +1688,7 @@
         ],
         "tags": [
             "yeast",
+            "Saccharomyces cerevisiae",
             "fluorescence microscopy",
             "time-lapse",
             "data:images",
@@ -1673,6 +1720,7 @@
         ],
         "tags": [
             "yeast",
+            "Saccharomyces cerevisiae",
             "fluorescence microscopy",
             "time-lapse",
             "stress response",

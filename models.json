@@ -34,6 +34,7 @@
             "unet",
             "2d",
             "arabidopsis",
+            "Arabidopsis thaliana",
             "plant",
             "confocal microscopy",
             "dataset_id:bioimage-io"
@@ -54,6 +55,7 @@
             "unet",
             "2d",
             "arabidopsis",
+            "Arabidopsis thaliana",
             "ovules",
             "plant",
             "confocal microscopy",
@@ -98,6 +100,7 @@
             "cell membrane",
             "stem cells",
             "arabidopsis",
+            "Arabidopsis thaliana",
             "fluorescence microscopy",
             "dataset_id:bioimage-io"
         ],
@@ -120,6 +123,7 @@
             "cell membrane",
             "ovules",
             "arabidopsis",
+            "Arabidopsis thaliana",
             "fluorescence microscopy",
             "dataset_id:bioimage-io"
         ],
@@ -140,6 +144,7 @@
             "unet",
             "3d",
             "arabidopsis",
+            "Arabidopsis thaliana",
             "ovules",
             "plant",
             "confocal microscopy",
@@ -163,6 +168,7 @@
             "plantseg",
             "cell membrane",
             "arabidopsis",
+            "Arabidopsis thaliana",
             "lateral root",
             "light-sheet microscopy",
             "dataset_id:bioimage-io"
@@ -182,6 +188,7 @@
             "3d",
             "unet",
             "mouse embryo",
+            "Mus musculus",
             "nuclei",
             "confocal microscopy",
             "animal",
@@ -202,6 +209,7 @@
             "3d",
             "unet",
             "mouse embryo",
+            "Mus musculus",
             "cell membrane",
             "light-sheet microscopy",
             "live imaging",
@@ -223,6 +231,7 @@
             "segmentation",
             "plant",
             "arabidopsis",
+            "Arabidopsis thaliana",
             "dataset_id:bioimage-io"
         ],
         "metadata": []
@@ -240,6 +249,7 @@
             "2d",
             "bacteria",
             "bacillus subtilis",
+            "Bacillus subtilis",
             "fluorescence microscopy",
             "deepbacs",
             "dataset_id:bioimage-io"
@@ -312,6 +322,7 @@
         ],
         "tags": [
             "drosophila",
+            "Drosophila melanogaster",
             "fluorescence microscopy",
             "2d",
             "unet",
@@ -514,6 +525,7 @@
             "image reconstruction",
             "nuclei",
             "medaka",
+            "Oryzias latipes",
             "dataset_id:bioimage-io"
         ],
         "metadata": []
@@ -684,6 +696,7 @@
             "cell membrane",
             "plant",
             "arabidopsis",
+            "Arabidopsis thaliana",
             "dataset_id:bioimage-io"
         ],
         "metadata": []
@@ -703,6 +716,7 @@
             "nuclei segmentation",
             "instance segmentation",
             "arabidopsis",
+            "Arabidopsis thaliana",
             "ovules",
             "plant",
             "confocal microscopy",
@@ -724,6 +738,7 @@
             "instance segmentation",
             "electron microscopy",
             "platynereis",
+            "Platynereis dumerilii",
             "dataset_id:bioimage-io"
         ],
         "metadata": []
@@ -742,6 +757,7 @@
             "instance segmentation",
             "electron microscopy",
             "platynereis",
+            "Platynereis dumerilii",
             "dataset_id:bioimage-io"
         ],
         "metadata": []
@@ -820,6 +836,7 @@
             "confocal microscopy",
             "plant",
             "arabidopsis",
+            "Arabidopsis thaliana",
             "ovules",
             "dataset_id:bioimage-io"
         ],
