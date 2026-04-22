@@ -102,8 +102,8 @@ Tags are free-form strings with two special conventions:
 No clone needed -- pipe directly into `jq`:
 
 ```bash
-SOURCES="https://raw.githubusercontent.com/afermg/cuna/master/datasets.json"
-MODELS="https://raw.githubusercontent.com/afermg/cuna/master/models.json"
+SOURCES="https://raw.githubusercontent.com/afermg/awesome-bioimaging-datasets/master/datasets.json"
+MODELS="https://raw.githubusercontent.com/afermg/awesome-bioimaging-datasets/master/models.json"
 
 # All image datasets
 curl -s "$SOURCES" | jq -r '.[] | select(.tags[] | contains("data:images")) | "\(.name)\t\(.url)"'
