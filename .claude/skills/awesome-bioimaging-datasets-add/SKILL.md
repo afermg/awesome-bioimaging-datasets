@@ -58,6 +58,15 @@ Required tag types:
 
 Also add descriptive tags for: organism, imaging modality, cell type, scale (e.g., "4M cells"), and any domain-specific terms.
 
+**Organism tags**: When the organism is known, include both the common name and the scientific (Latin binomial) name as separate tags. Examples:
+- `"human"` + `"Homo sapiens"`
+- `"mouse"` + `"Mus musculus"`
+- `"yeast"` + `"Saccharomyces cerevisiae"` (for budding yeast)
+- `"zebrafish"` + `"Danio rerio"`
+- `"arabidopsis"` + `"Arabidopsis thaliana"`
+- `"drosophila"` + `"Drosophila melanogaster"`
+- `"E. coli"` + `"Escherichia coli"`
+
 ### 4. Add metadata references
 
 If the dataset page or API links to associated publications:
