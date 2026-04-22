@@ -12,7 +12,7 @@
             "reference atlas",
             "3D coordinates",
             "10um voxel",
-            "id:abc-atlas",
+            "dataset_id:abc-atlas",
             "atlas",
             "data:images"
         ],
@@ -40,7 +40,7 @@
             "3M cells",
             "211 donors",
             "9 brain regions",
-            "id:abc-atlas",
+            "dataset_id:abc-atlas",
             "atlas",
             "data:expression"
         ],
@@ -85,7 +85,7 @@
             "snRNA-seq",
             "8M cells",
             "consensus taxonomy",
-            "id:abc-atlas",
+            "dataset_id:abc-atlas",
             "atlas",
             "data:expression"
         ],
@@ -106,7 +106,7 @@
             "scRNA-seq",
             "568K cells",
             "embryonic to adult",
-            "id:abc-atlas",
+            "dataset_id:abc-atlas",
             "atlas",
             "data:expression"
         ],
@@ -130,7 +130,7 @@
             "Xenium",
             "Patch-seq",
             "cross-species",
-            "id:abc-atlas",
+            "dataset_id:abc-atlas",
             "atlas",
             "data:expression"
         ],
@@ -150,7 +150,7 @@
             "spatial transcriptomics",
             "4M cells",
             "500-gene panel",
-            "id:abc-atlas",
+            "dataset_id:abc-atlas",
             "atlas",
             "data:expression"
         ],
@@ -174,7 +174,7 @@
             "MERFISH",
             "imputed expression",
             "8460 genes",
-            "id:abc-atlas",
+            "dataset_id:abc-atlas",
             "atlas",
             "data:expression"
         ],
@@ -198,7 +198,7 @@
             "snRNA-seq",
             "3M nuclei",
             "100 brain regions",
-            "id:abc-atlas",
+            "dataset_id:abc-atlas",
             "atlas",
             "data:expression"
         ],
@@ -221,7 +221,7 @@
             "mouse",
             "multiome",
             "chromatin accessibility",
-            "id:abc-atlas",
+            "dataset_id:abc-atlas",
             "atlas",
             "data:expression"
         ],
@@ -245,7 +245,7 @@
             "scRNA-seq",
             "10Xv2",
             "1.7M cells",
-            "id:abc-atlas",
+            "dataset_id:abc-atlas",
             "atlas",
             "data:expression"
         ],
@@ -269,7 +269,7 @@
             "scRNA-seq",
             "10Xv3",
             "2.3M cells",
-            "id:abc-atlas",
+            "dataset_id:abc-atlas",
             "atlas",
             "data:expression"
         ],
@@ -292,7 +292,7 @@
             "mouse",
             "UMAP",
             "brain regions",
-            "id:abc-atlas",
+            "dataset_id:abc-atlas",
             "atlas",
             "data:expression"
         ],
@@ -316,7 +316,7 @@
             "cell type taxonomy",
             "5322 clusters",
             "338 subclasses",
-            "id:abc-atlas",
+            "dataset_id:abc-atlas",
             "atlas",
             "data:expression"
         ],
@@ -342,7 +342,7 @@
             "10Xv3",
             "1.2M cells",
             "differential expression",
-            "id:abc-atlas",
+            "dataset_id:abc-atlas",
             "atlas",
             "data:expression"
         ],
@@ -364,7 +364,7 @@
             "4.2M cells",
             "1122 genes",
             "coronal",
-            "id:abc-atlas",
+            "dataset_id:abc-atlas",
             "atlas",
             "data:expression"
         ],
@@ -391,7 +391,7 @@
             "1.9M cells",
             "1122 genes",
             "coronal",
-            "id:abc-atlas",
+            "dataset_id:abc-atlas",
             "atlas",
             "data:expression"
         ],
@@ -418,7 +418,7 @@
             "2.1M cells",
             "1122 genes",
             "sagittal",
-            "id:abc-atlas",
+            "dataset_id:abc-atlas",
             "atlas",
             "data:expression"
         ],
@@ -445,7 +445,7 @@
             "0.22M cells",
             "1122 genes",
             "sagittal",
-            "id:abc-atlas",
+            "dataset_id:abc-atlas",
             "atlas",
             "data:expression"
         ],
@@ -559,21 +559,246 @@
         "metadata": []
     },
     {
-        "id": "broad-cellpose-brightfield",
-        "name": "Custom Cellpose models for segmentation of brightfield images",
-        "url": "https://zenodo.org/records/15602078",
-        "type": "experiment",
+        "id": "bioimage-io",
+        "name": "BioImage.IO: Datasets from the BioImage Model Zoo",
+        "url": "https://bioimage.io/#/datasets",
+        "type": "experiment collection",
         "authors": [
-            "Liu, Le"
+            "BioImage.IO Community"
         ],
         "tags": [
-            "Cellpose",
-            "segmentation",
-            "brightfield",
             "deep learning",
-            "id:broad-imaging",
-            "zenodo",
-            "model"
+            "training data",
+            "segmentation",
+            "fluorescence microscopy",
+            "electron microscopy",
+            "open source",
+            "42 datasets",
+            "data:images"
+        ],
+        "metadata": []
+    },
+    {
+        "id": "bioimage-io-arabidopsis-tissue-atlas",
+        "name": "Arabidopsis 3D Digital Tissue Atlas",
+        "url": "https://bioimage.io/#/r/ilastik/arabidopsis_tissue_atlas",
+        "type": "experiment",
+        "authors": [
+            "Pape, Constantin"
+        ],
+        "tags": [
+            "light microscopy",
+            "arabidopsis",
+            "cells",
+            "instance segmentation",
+            "3d",
+            "dataset_id:bioimage-io",
+            "model_id:bioimage-io-arabidopsis-leaf-segmentation",
+            "data:images"
+        ],
+        "metadata": []
+    },
+    {
+        "id": "bioimage-io-covid-if-training-data",
+        "name": "Covid-IF Training Data",
+        "url": "https://bioimage.io/#/r/ilastik/covid_if_training_data",
+        "type": "experiment",
+        "authors": [
+            "Pape, Constantin"
+        ],
+        "tags": [
+            "high-content imaging",
+            "fluorescence microscopy",
+            "2d",
+            "cells",
+            "nuclei",
+            "covid19",
+            "dataset_id:bioimage-io",
+            "model_id:bioimage-io-covid-if-cell-segmentation",
+            "data:images"
+        ],
+        "metadata": []
+    },
+    {
+        "id": "bioimage-io-cremi-training-data",
+        "name": "CREMI: MICCAI Challenge on Circuit Reconstruction from EM Images",
+        "url": "https://bioimage.io/#/r/ilastik/cremi_training_data",
+        "type": "experiment",
+        "authors": [
+            "Pape, Constantin"
+        ],
+        "tags": [
+            "electron microscopy",
+            "brain",
+            "neurons",
+            "instance segmentation",
+            "3d",
+            "CREMI challenge",
+            "dataset_id:bioimage-io",
+            "model_id:bioimage-io-neuron-em-3d",
+            "data:images"
+        ],
+        "metadata": []
+    },
+    {
+        "id": "bioimage-io-dsb-nucleus-training-data",
+        "name": "DSB Nucleus Segmentation Training Data",
+        "url": "https://bioimage.io/#/r/ilastik/stardist_dsb_training_data",
+        "type": "experiment",
+        "authors": [
+            "Pape, Constantin"
+        ],
+        "tags": [
+            "nuclei",
+            "instance segmentation",
+            "fluorescence microscopy",
+            "2d",
+            "DSB challenge",
+            "dataset_id:bioimage-io",
+            "model_id:bioimage-io-nuclei-segmentation",
+            "model_id:bioimage-io-stardist-fluorescence-nuclei",
+            "data:images"
+        ],
+        "metadata": []
+    },
+    {
+        "id": "bioimage-io-hatchling-medaka-heart",
+        "name": "Hatchling Medaka Heart (HyLFM)",
+        "url": "https://bioimage.io/#/r/10.5281/zenodo.7612115",
+        "type": "experiment",
+        "authors": [
+            "Beuttenmueller, Fynn"
+        ],
+        "tags": [
+            "light-field microscopy",
+            "medaka",
+            "fluorescence microscopy",
+            "image reconstruction",
+            "dataset_id:bioimage-io",
+            "model_id:bioimage-io-hylfm-net",
+            "data:images"
+        ],
+        "metadata": []
+    },
+    {
+        "id": "bioimage-io-livecell-dataset",
+        "name": "LIVECell: Large-scale dataset for label-free live cell segmentation",
+        "url": "https://bioimage.io/#/r/ilastik/livecell_dataset",
+        "type": "experiment",
+        "authors": [
+            "Pape, Constantin"
+        ],
+        "tags": [
+            "2d",
+            "phase-contrast microscopy",
+            "label-free",
+            "cells",
+            "instance segmentation",
+            "dataset_id:bioimage-io",
+            "model_id:bioimage-io-livecell-segmentation",
+            "data:images"
+        ],
+        "metadata": []
+    },
+    {
+        "id": "bioimage-io-mitoem-challenge",
+        "name": "MitoEM Challenge: Large-scale 3D Mitochondria Instance Segmentation",
+        "url": "https://bioimage.io/#/r/ilastik/mitoem_segmentation_challenge",
+        "type": "experiment",
+        "authors": [
+            "Pape, Constantin"
+        ],
+        "tags": [
+            "mitochondria",
+            "electron microscopy",
+            "3d",
+            "instance segmentation",
+            "dataset_id:bioimage-io",
+            "model_id:bioimage-io-enhancer-mitochondria-em2d",
+            "model_id:bioimage-io-enhancer-mitochondria-em3d",
+            "data:images"
+        ],
+        "metadata": []
+    },
+    {
+        "id": "bioimage-io-monuseg",
+        "name": "Multi-Organ Nucleus Segmentation Challenge - MICCAI 2018",
+        "url": "https://bioimage.io/#/r/deepimagej/MoNuSeg_digital_pathology_miccai2018",
+        "type": "experiment",
+        "authors": [
+            "DeepImageJ"
+        ],
+        "tags": [
+            "pathology",
+            "H&E",
+            "histology",
+            "2d",
+            "nuclei segmentation",
+            "digital pathology",
+            "dataset_id:bioimage-io",
+            "model_id:bioimage-io-stardist-he-nuclei",
+            "data:images"
+        ],
+        "metadata": []
+    },
+    {
+        "id": "bioimage-io-plantseg-ovules",
+        "name": "Arabidopsis Ovules Training Data",
+        "url": "https://bioimage.io/#/r/ilastik/plantseg_ovules",
+        "type": "experiment",
+        "authors": [
+            "Pape, Constantin"
+        ],
+        "tags": [
+            "light microscopy",
+            "arabidopsis",
+            "cells",
+            "instance segmentation",
+            "3d",
+            "dataset_id:bioimage-io",
+            "model_id:bioimage-io-plant-cell-membrane-segmentation",
+            "data:images"
+        ],
+        "metadata": []
+    },
+    {
+        "id": "bioimage-io-platynereis-em-training-data",
+        "name": "Platynereis EM Training Data",
+        "url": "https://bioimage.io/#/r/ilastik/platynereis_em_training_data",
+        "type": "experiment",
+        "authors": [
+            "Pape, Constantin"
+        ],
+        "tags": [
+            "electron microscopy",
+            "platynereis",
+            "cells",
+            "nuclei",
+            "instance segmentation",
+            "3d",
+            "dataset_id:bioimage-io",
+            "model_id:bioimage-io-platynereis-em-nuclei",
+            "data:images"
+        ],
+        "metadata": []
+    },
+    {
+        "id": "bioimage-io-vnc",
+        "name": "Segmented anisotropic ssTEM dataset of neural tissue",
+        "url": "https://bioimage.io/#/r/ilastik/vnc",
+        "type": "experiment",
+        "authors": [
+            "Pape, Constantin"
+        ],
+        "tags": [
+            "electron microscopy",
+            "drosophila",
+            "neurons",
+            "instance segmentation",
+            "dataset_id:bioimage-io",
+            "model_id:bioimage-io-mitochondria-em-2d",
+            "model_id:bioimage-io-em3d-boundary-enhancer",
+            "data:images"
         ],
         "metadata": []
     },
@@ -589,7 +814,7 @@
             "CellProfiler",
             "cp_measure",
             "analysis",
-            "id:broad-imaging",
+            "dataset_id:broad-imaging",
             "zenodo",
             "benchmark",
             "data:morphological_profiles"
@@ -628,7 +853,7 @@
         "tags": [
             "sample data",
             "Nahual",
-            "id:broad-imaging",
+            "dataset_id:broad-imaging",
             "zenodo",
             "data:images"
         ],
@@ -729,7 +954,7 @@
             "high-content screening",
             "U2OS",
             "JUMP-CP",
-            "id:broad-imaging",
+            "dataset_id:broad-imaging",
             "benchmark",
             "data:images",
             "data:morphological_profiles"
@@ -737,28 +962,86 @@
         "metadata": []
     },
     {
-        "id": "czi-viscy",
-        "name": "CZI VisCy public datasets",
-        "url": "https://public.czbiohub.org/comp.micro/viscy/",
-        "type": "experiment collection",
+        "id": "czi-opencell",
+        "name": "OpenCell: Proteome-scale endogenous tagging of human proteins",
+        "url": "https://opencell.sf.czbiohub.org/",
+        "type": "large-scale database",
         "authors": [
-            "Mehta Lab, CZ Biohub San Francisco"
+            "Cho, Nathan H.",
+            "Cheveralls, Keith C.",
+            "Brunner, Andreas-David",
+            "Kim, Kibeom",
+            "Michaelis, Andre C."
         ],
         "tags": [
-            "virtual staining",
-            "label-free imaging",
-            "OME-Zarr",
-            "deep learning",
-            "time-lapse",
-            "contrastive learning",
-            "cell dynamics",
-            "model",
+            "human",
+            "HEK293T",
+            "confocal microscopy",
+            "fluorescence microscopy",
+            "proteomics",
+            "CRISPR",
+            "protein localization",
+            "1310 proteins",
+            "3D imaging",
+            "split-mNeonGreen2",
+            "CZ Biohub",
             "data:images"
         ],
         "metadata": [
             {
                 "type": "article",
-                "url": "https://doi.org/10.1038/s42256-025-01046-2"
+                "url": "https://doi.org/10.1126/science.abi6983"
+            }
+        ]
+    },
+    {
+        "id": "czi-virtual-cell-models",
+        "name": "CZ Virtual Cells Platform: Microscopy datasets",
+        "url": "https://virtualcellmodels.cziscience.com/data?modality=microscopy",
+        "type": "large-scale database",
+        "authors": [
+            "Chan Zuckerberg Initiative"
+        ],
+        "tags": [
+            "human",
+            "microscopy",
+            "immunofluorescence",
+            "confocal microscopy",
+            "cell painting",
+            "cryo-ET",
+            "ML-ready",
+            "multi-modal",
+            "CZ Biohub",
+            "data:images"
+        ],
+        "metadata": []
+    },
+    {
+        "id": "czi-zebrahub",
+        "name": "Zebrahub: Multimodal zebrafish developmental atlas",
+        "url": "https://zebrahub.sf.czbiohub.org/imaging",
+        "type": "large-scale database",
+        "authors": [
+            "Lange, Merlin",
+            "Royer Lab, CZ Biohub San Francisco"
+        ],
+        "tags": [
+            "zebrafish",
+            "light-sheet microscopy",
+            "developmental biology",
+            "time-lapse",
+            "OME-Zarr",
+            "cell tracking",
+            "scRNA-seq",
+            "atlas",
+            "CZ Biohub",
+            "data:images",
+            "data:expression"
+        ],
+        "metadata": [
+            {
+                "type": "article",
+                "url": "https://doi.org/10.1016/j.cell.2024.10.015"
             }
         ]
     },
@@ -872,7 +1155,7 @@
             "CRISPR",
             "drug discovery",
             "U2OS",
-            "id:cell-painting-gallery",
+            "dataset_id:cell-painting-gallery",
             "data:images",
             "data:morphological_profiles"
         ],
@@ -912,7 +1195,7 @@
             "fluorescence microscopy",
             "time-lapse",
             "data:images",
-            "id:swainlab-munoz-yeast-fluorescence-time-series",
+            "dataset_id:swainlab-munoz-yeast-fluorescence-time-series",
             "zenodo",
             "protein aggregation",
             "glucose shift",
@@ -943,7 +1226,7 @@
             "fluorescence microscopy",
             "time-lapse",
             "data:images",
-            "id:swainlab-munoz-yeast-fluorescence-time-series",
+            "dataset_id:swainlab-munoz-yeast-fluorescence-time-series",
             "zenodo",
             "starvation",
             "URA7",
@@ -970,7 +1253,7 @@
             "fluorescence microscopy",
             "time-lapse",
             "data:images",
-            "id:swainlab-munoz-yeast-fluorescence-time-series",
+            "dataset_id:swainlab-munoz-yeast-fluorescence-time-series",
             "zenodo",
             "protein aggregation",
             "CTP switch",
@@ -998,7 +1281,7 @@
             "fluorescence microscopy",
             "time-lapse",
             "data:images",
-            "id:swainlab-munoz-yeast-fluorescence-time-series",
+            "dataset_id:swainlab-munoz-yeast-fluorescence-time-series",
             "zenodo",
             "glucose shift",
             "phluorin",
@@ -1026,7 +1309,7 @@
             "fluorescence microscopy",
             "time-lapse",
             "data:images",
-            "id:swainlab-munoz-yeast-fluorescence-time-series",
+            "dataset_id:swainlab-munoz-yeast-fluorescence-time-series",
             "zenodo",
             "glucose shift",
             "phluorin",
@@ -1054,7 +1337,7 @@
             "fluorescence microscopy",
             "time-lapse",
             "data:images",
-            "id:swainlab-munoz-yeast-fluorescence-time-series",
+            "dataset_id:swainlab-munoz-yeast-fluorescence-time-series",
             "zenodo",
             "glucose shift",
             "phluorin",
@@ -1083,7 +1366,7 @@
             "fluorescence microscopy",
             "time-lapse",
             "data:images",
-            "id:swainlab-munoz-yeast-fluorescence-time-series",
+            "dataset_id:swainlab-munoz-yeast-fluorescence-time-series",
             "zenodo",
             "glucose shift",
             "URA8",
@@ -1113,7 +1396,7 @@
             "fluorescence microscopy",
             "time-lapse",
             "data:images",
-            "id:swainlab-munoz-yeast-fluorescence-time-series",
+            "dataset_id:swainlab-munoz-yeast-fluorescence-time-series",
             "zenodo",
             "glucose shift",
             "phluorin",
@@ -1150,7 +1433,7 @@
             "fluorescence microscopy",
             "time-lapse",
             "data:images",
-            "id:swainlab-munoz-yeast-fluorescence-time-series",
+            "dataset_id:swainlab-munoz-yeast-fluorescence-time-series",
             "zenodo",
             "glucose shift",
             "dual pH",
@@ -1174,7 +1457,7 @@
             "fluorescence microscopy",
             "time-lapse",
             "data:images",
-            "id:swainlab-munoz-yeast-fluorescence-time-series",
+            "dataset_id:swainlab-munoz-yeast-fluorescence-time-series",
             "zenodo",
             "glucose shift",
             "dual pH",
@@ -1204,7 +1487,7 @@
             "fluorescence microscopy",
             "time-lapse",
             "data:images",
-            "id:swainlab-munoz-yeast-fluorescence-time-series",
+            "dataset_id:swainlab-munoz-yeast-fluorescence-time-series",
             "zenodo",
             "glucose shift",
             "dual pH",
@@ -1234,7 +1517,7 @@
             "fluorescence microscopy",
             "time-lapse",
             "data:images",
-            "id:swainlab-munoz-yeast-fluorescence-time-series",
+            "dataset_id:swainlab-munoz-yeast-fluorescence-time-series",
             "zenodo",
             "glucose shift",
             "dual pH",
@@ -1267,7 +1550,7 @@
             "fluorescence microscopy",
             "time-lapse",
             "data:images",
-            "id:swainlab-munoz-yeast-fluorescence-time-series",
+            "dataset_id:swainlab-munoz-yeast-fluorescence-time-series",
             "zenodo",
             "glucose shift",
             "GCD2",
@@ -1295,7 +1578,7 @@
             "fluorescence microscopy",
             "time-lapse",
             "data:images",
-            "id:swainlab-munoz-yeast-fluorescence-time-series",
+            "dataset_id:swainlab-munoz-yeast-fluorescence-time-series",
             "zenodo",
             "protein aggregation",
             "starvation",
@@ -1335,7 +1618,7 @@
             "fluorescence microscopy",
             "time-lapse",
             "data:images",
-            "id:swainlab-munoz-yeast-fluorescence-time-series",
+            "dataset_id:swainlab-munoz-yeast-fluorescence-time-series",
             "zenodo",
             "starvation",
             "URA7",
@@ -1362,7 +1645,7 @@
             "fluorescence microscopy",
             "time-lapse",
             "data:images",
-            "id:swainlab-munoz-yeast-fluorescence-time-series",
+            "dataset_id:swainlab-munoz-yeast-fluorescence-time-series",
             "zenodo",
             "protein aggregation",
             "starvation",

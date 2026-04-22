@@ -1,15 +1,15 @@
 ---
 name: awesome-bioimaging-datasets-add
-description: Add new biological imaging or omics datasets to the awesome-bioimaging-datasets catalog (sources.json). Use this skill whenever the user wants to add a dataset, URL, Zenodo record, or data repository to their sources.json catalog, or asks to check for new datasets to add. Also trigger when the user pastes a URL to a dataset (Zenodo, AWS, GitHub, etc.) and wants it cataloged, or when they say things like "add this dataset", "catalog this", "include this source", or "check for new entries".
+description: Add new biological imaging or omics datasets to the awesome-bioimaging-datasets catalog (datasets.json). Use this skill whenever the user wants to add a dataset, URL, Zenodo record, or data repository to their datasets.json catalog, or asks to check for new datasets to add. Also trigger when the user pastes a URL to a dataset (Zenodo, AWS, GitHub, etc.) and wants it cataloged, or when they say things like "add this dataset", "catalog this", "include this source", or "check for new entries".
 ---
 
 # Adding datasets to awesome-bioimaging-datasets
 
-awesome-bioimaging-datasets is a curated catalog of public biological imaging and omics datasets stored in `sources.json` at the project root. This skill handles adding new entries, including fetching metadata from URLs, classifying datasets, and maintaining consistency with the existing schema.
+awesome-bioimaging-datasets is a curated catalog of public biological imaging and omics datasets stored in `datasets.json` at the project root. This skill handles adding new entries, including fetching metadata from URLs, classifying datasets, and maintaining consistency with the existing schema.
 
 ## Where to find the catalog
 
-The catalog lives at the root of the awesome-bioimaging-datasets project. Read `readme.md` for the current schema and `sources.json` for existing entries. Always read both before making changes -- the schema may have evolved.
+The catalog lives at the root of the awesome-bioimaging-datasets project. Read `readme.md` for the current schema and `datasets.json` for existing entries. Always read both before making changes -- the schema may have evolved.
 
 ## Workflow for adding a dataset
 
@@ -36,7 +36,7 @@ Each entry follows this schema (read `readme.md` for the latest):
     "url": "https://...",
     "type": "experiment | experiment collection | large-scale database",
     "authors": ["Last, First", "Institution Name"],
-    "tags": ["organism", "modality", "data:images", "id:parent-collection"],
+    "tags": ["organism", "modality", "data:images", "dataset_id:parent-collection"],
     "metadata": [
         {"type": "article", "url": "https://doi.org/..."}
     ]
@@ -69,15 +69,15 @@ If no paper is found, leave `metadata` as an empty list `[]`.
 
 ### 5. Insert and sort
 
-After adding the entry to `sources.json`, sort the entire array alphabetically by `id`. Use a script:
+After adding the entry to `datasets.json`, sort the entire array alphabetically by `id`. Use a script:
 
 ```bash
 python3 -c "
 import json
-with open('sources.json') as f:
+with open('datasets.json') as f:
     data = json.load(f)
 data.sort(key=lambda x: x['id'])
-with open('sources.json', 'w') as f:
+with open('datasets.json', 'w') as f:
     json.dump(data, f, indent=4, ensure_ascii=False)
     f.write('\n')
 "
@@ -94,7 +94,7 @@ Before adding, verify the dataset isn't already in the catalog by checking:
 
 When adding a parent collection with subdatasets (e.g., an atlas with multiple experiments):
 1. Add the parent as its own entry (type: `large-scale database` or `experiment collection`)
-2. Add each subdataset as a separate flat entry with `id:<parent-id>` in tags
+2. Add each subdataset as a separate flat entry with `dataset_id:<parent-id>` in tags
 3. Each subdataset needs its own URL pointing to its specific page/documentation
 
 ## Checking for new datasets
@@ -105,4 +105,4 @@ When asked to check for updates, these are useful sources to scan:
 - **Zenodo Broad Imaging community**: https://zenodo.org/api/communities/broad-imaging/records?size=50 -- check for new records not yet in the catalog
 - **Cell Painting Gallery**: https://registry.opendata.aws/cellpainting-gallery/ -- check for newly added datasets
 
-Compare fetched entries against existing `sources.json` IDs and URLs to identify what's new.
+Compare fetched entries against existing `datasets.json` IDs and URLs to identify what's new.

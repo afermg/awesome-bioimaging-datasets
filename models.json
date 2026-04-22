@@ -1,0 +1,906 @@
+[
+    {
+        "id": "bioimage-io",
+        "name": "BioImage.IO Model Zoo",
+        "url": "https://bioimage.io/",
+        "type": "large-scale database",
+        "authors": [
+            "BioImage.IO Community"
+        ],
+        "tags": [
+            "model zoo",
+            "deep learning",
+            "segmentation",
+            "fluorescence microscopy",
+            "electron microscopy",
+            "open source",
+            "44 models",
+            "42 datasets"
+        ],
+        "metadata": []
+    },
+    {
+        "id": "bioimage-io-2d-unet-arabidopsis-apical-stem-cells",
+        "name": "2D UNet Arabidopsis Apical Stem Cells",
+        "url": "https://bioimage.io/#/r/10.5281/zenodo.6334881",
+        "type": "model",
+        "authors": [
+            "Wolny, Adrian",
+            "Cerrone, Lorenzo"
+        ],
+        "tags": [
+            "cell segmentation",
+            "plantseg",
+            "unet",
+            "2d",
+            "arabidopsis",
+            "plant",
+            "confocal microscopy",
+            "dataset_id:bioimage-io"
+        ],
+        "metadata": []
+    },
+    {
+        "id": "bioimage-io-2d-unet-arabidopsis-ovules",
+        "name": "2D UNet Arabidopsis Ovules",
+        "url": "https://bioimage.io/#/r/10.5281/zenodo.6334383",
+        "type": "model",
+        "authors": [
+            "Wolny, Adrian"
+        ],
+        "tags": [
+            "cell segmentation",
+            "plantseg",
+            "unet",
+            "2d",
+            "arabidopsis",
+            "ovules",
+            "plant",
+            "confocal microscopy",
+            "dataset_id:bioimage-io"
+        ],
+        "metadata": []
+    },
+    {
+        "id": "bioimage-io-2d-unet-label-free-mcherry",
+        "name": "2D UNet for label-free prediction of mCherry-H2B",
+        "url": "https://bioimage.io/#/r/10.5281/zenodo.8064806",
+        "type": "model",
+        "authors": [
+            "Sonneck, Justin",
+            "Chen, Jianxu"
+        ],
+        "tags": [
+            "label-free",
+            "2d",
+            "fluorescence",
+            "brightfield",
+            "unet",
+            "cells",
+            "dataset_id:bioimage-io"
+        ],
+        "metadata": []
+    },
+    {
+        "id": "bioimage-io-3d-unet-arabidopsis-apical-stem-cells",
+        "name": "3D UNet Arabidopsis Apical Stem Cells",
+        "url": "https://bioimage.io/#/r/10.5281/zenodo.6346511",
+        "type": "model",
+        "authors": [
+            "Cerrone, Lorenzo",
+            "Wolny, Adrian"
+        ],
+        "tags": [
+            "3d",
+            "unet",
+            "plant",
+            "plantseg",
+            "cell membrane",
+            "stem cells",
+            "arabidopsis",
+            "fluorescence microscopy",
+            "dataset_id:bioimage-io"
+        ],
+        "metadata": []
+    },
+    {
+        "id": "bioimage-io-3d-unet-arabidopsis-ovules",
+        "name": "3D UNet Arabidopsis Ovules",
+        "url": "https://bioimage.io/#/r/10.5281/zenodo.6334583",
+        "type": "model",
+        "authors": [
+            "Wolny, Adrian",
+            "Cerrone, Lorenzo"
+        ],
+        "tags": [
+            "3d",
+            "unet",
+            "plant",
+            "plantseg",
+            "cell membrane",
+            "ovules",
+            "arabidopsis",
+            "fluorescence microscopy",
+            "dataset_id:bioimage-io"
+        ],
+        "metadata": []
+    },
+    {
+        "id": "bioimage-io-3d-unet-arabidopsis-ovules-nuclei",
+        "name": "3D UNet Arabidopsis Ovules Nuclei",
+        "url": "https://bioimage.io/#/r/10.5281/zenodo.7772662",
+        "type": "model",
+        "authors": [
+            "Yu, Qin",
+            "Wolny, Adrian"
+        ],
+        "tags": [
+            "nuclei segmentation",
+            "plantseg",
+            "unet",
+            "3d",
+            "arabidopsis",
+            "ovules",
+            "plant",
+            "confocal microscopy",
+            "dataset_id:bioimage-io"
+        ],
+        "metadata": []
+    },
+    {
+        "id": "bioimage-io-3d-unet-lateral-root-primordia",
+        "name": "3D UNet Lateral Root Primordia Cells",
+        "url": "https://bioimage.io/#/r/10.5281/zenodo.6334777",
+        "type": "model",
+        "authors": [
+            "Wolny, Adrian",
+            "Cerrone, Lorenzo"
+        ],
+        "tags": [
+            "3d",
+            "unet",
+            "plant",
+            "plantseg",
+            "cell membrane",
+            "arabidopsis",
+            "lateral root",
+            "light-sheet microscopy",
+            "dataset_id:bioimage-io"
+        ],
+        "metadata": []
+    },
+    {
+        "id": "bioimage-io-3d-unet-mouse-embryo-fixed",
+        "name": "3D UNet Mouse Embryo Fixed",
+        "url": "https://bioimage.io/#/r/10.5281/zenodo.6383429",
+        "type": "model",
+        "authors": [
+            "Bondarenko, V.",
+            "Wolny, A."
+        ],
+        "tags": [
+            "3d",
+            "unet",
+            "mouse embryo",
+            "nuclei",
+            "confocal microscopy",
+            "animal",
+            "dataset_id:bioimage-io"
+        ],
+        "metadata": []
+    },
+    {
+        "id": "bioimage-io-3d-unet-mouse-embryo-live",
+        "name": "3D UNet Mouse Embryo Live",
+        "url": "https://bioimage.io/#/r/10.5281/zenodo.6384845",
+        "type": "model",
+        "authors": [
+            "Wolny, A.",
+            "Bondarenko, V."
+        ],
+        "tags": [
+            "3d",
+            "unet",
+            "mouse embryo",
+            "cell membrane",
+            "light-sheet microscopy",
+            "live imaging",
+            "animal",
+            "dataset_id:bioimage-io"
+        ],
+        "metadata": []
+    },
+    {
+        "id": "bioimage-io-arabidopsis-leaf-segmentation",
+        "name": "Arabidopsis Leaf Segmentation",
+        "url": "https://bioimage.io/#/r/10.5281/zenodo.6348728",
+        "type": "model",
+        "authors": [
+            "Pape, Constantin"
+        ],
+        "tags": [
+            "unet",
+            "segmentation",
+            "plant",
+            "arabidopsis",
+            "dataset_id:bioimage-io"
+        ],
+        "metadata": []
+    },
+    {
+        "id": "bioimage-io-b-subtilis-segmentation",
+        "name": "B. Subtilis bacteria segmentation - Widefield microscopy",
+        "url": "https://bioimage.io/#/r/10.5281/zenodo.7261974",
+        "type": "model",
+        "authors": [
+            "Gomez de Mariscal, Estibaliz"
+        ],
+        "tags": [
+            "unet",
+            "2d",
+            "bacteria",
+            "bacillus subtilis",
+            "fluorescence microscopy",
+            "deepbacs",
+            "dataset_id:bioimage-io"
+        ],
+        "metadata": []
+    },
+    {
+        "id": "bioimage-io-cebranet",
+        "name": "CebraNET Cellular Membranes in Volume SEM",
+        "url": "https://bioimage.io/#/r/10.5281/zenodo.7274275",
+        "type": "model",
+        "authors": [
+            "Hennies, Julian"
+        ],
+        "tags": [
+            "unet",
+            "3d",
+            "cells",
+            "electron microscopy",
+            "membranes",
+            "volume SEM",
+            "dataset_id:bioimage-io"
+        ],
+        "metadata": []
+    },
+    {
+        "id": "bioimage-io-cells-gland-segmentation",
+        "name": "Cells and gland Segmentation (FRUNet)",
+        "url": "https://bioimage.io/#/r/10.5281/zenodo.6865412",
+        "type": "model",
+        "authors": [
+            "Zoufu"
+        ],
+        "tags": [
+            "segmentation",
+            "cells",
+            "glands",
+            "dataset_id:bioimage-io"
+        ],
+        "metadata": []
+    },
+    {
+        "id": "bioimage-io-covid-if-cell-segmentation",
+        "name": "CovidIFCellSegmentationBoundaryModel",
+        "url": "https://bioimage.io/#/r/10.5281/zenodo.5847355",
+        "type": "model",
+        "authors": [
+            "Pape, Constantin"
+        ],
+        "tags": [
+            "unet",
+            "cells",
+            "immunofluorescence",
+            "instance segmentation",
+            "covid19",
+            "dataset_id:bioimage-io"
+        ],
+        "metadata": []
+    },
+    {
+        "id": "bioimage-io-drosophila-epithelia",
+        "name": "Drosophila epithelia cell boundary segmentation of 2D projections",
+        "url": "https://bioimage.io/#/r/10.5281/zenodo.7380171",
+        "type": "model",
+        "authors": [
+            "Smith, M. B.",
+            "Herszterg, S.",
+            "Salbreux, G.",
+            "Vincent, J. P."
+        ],
+        "tags": [
+            "drosophila",
+            "fluorescence microscopy",
+            "2d",
+            "unet",
+            "cells",
+            "dataset_id:bioimage-io"
+        ],
+        "metadata": []
+    },
+    {
+        "id": "bioimage-io-em3d-boundary-enhancer",
+        "name": "EM3DBoundaryEnhancer",
+        "url": "https://bioimage.io/#/r/10.5281/zenodo.6808325",
+        "type": "model",
+        "authors": [
+            "Hellgoth, Jonas"
+        ],
+        "tags": [
+            "unet",
+            "cells",
+            "electron microscopy",
+            "instance segmentation",
+            "3d",
+            "shallow2deep",
+            "dataset_id:bioimage-io"
+        ],
+        "metadata": []
+    },
+    {
+        "id": "bioimage-io-embryonet",
+        "name": "EmbryoNet base model",
+        "url": "https://bioimage.io/#/r/10.5281/zenodo.7315440",
+        "type": "model",
+        "authors": [
+            "Capek, Daniel",
+            "Safroshkin, Matvey"
+        ],
+        "tags": [
+            "classification",
+            "resnet",
+            "embryology",
+            "developmental biology",
+            "dataset_id:bioimage-io"
+        ],
+        "metadata": []
+    },
+    {
+        "id": "bioimage-io-enhancer-boundary-em2d",
+        "name": "EnhancerBoundaryEM2D",
+        "url": "https://bioimage.io/#/r/10.5281/zenodo.8142283",
+        "type": "model",
+        "authors": [
+            "Hellgoth, Jonas"
+        ],
+        "tags": [
+            "unet",
+            "cells",
+            "electron microscopy",
+            "instance segmentation",
+            "2d",
+            "shallow2deep",
+            "dataset_id:bioimage-io"
+        ],
+        "metadata": []
+    },
+    {
+        "id": "bioimage-io-enhancer-mitochondria-em2d",
+        "name": "EnhancerMitochondriaEM2D",
+        "url": "https://bioimage.io/#/r/10.5281/zenodo.6406756",
+        "type": "model",
+        "authors": [
+            "Pape, Constantin"
+        ],
+        "tags": [
+            "unet",
+            "mitochondria",
+            "electron microscopy",
+            "instance segmentation",
+            "shallow2deep",
+            "2d",
+            "dataset_id:bioimage-io"
+        ],
+        "metadata": []
+    },
+    {
+        "id": "bioimage-io-enhancer-mitochondria-em3d",
+        "name": "EnhancerMitochondriaEM3D",
+        "url": "https://bioimage.io/#/r/10.5281/zenodo.6811491",
+        "type": "model",
+        "authors": [
+            "Pape, Constantin"
+        ],
+        "tags": [
+            "unet",
+            "mitochondria",
+            "electron microscopy",
+            "instance segmentation",
+            "shallow2deep",
+            "3d",
+            "dataset_id:bioimage-io"
+        ],
+        "metadata": []
+    },
+    {
+        "id": "bioimage-io-epithelia-affinity",
+        "name": "EpitheliaAffinityModel",
+        "url": "https://bioimage.io/#/r/10.5281/zenodo.6079314",
+        "type": "model",
+        "authors": [
+            "Pape, Constantin"
+        ],
+        "tags": [
+            "unet",
+            "segmentation",
+            "dataset_id:bioimage-io"
+        ],
+        "metadata": []
+    },
+    {
+        "id": "bioimage-io-hpa-bestfitting-densenet",
+        "name": "HPA Bestfitting Densenet",
+        "url": "https://bioimage.io/#/r/10.5281/zenodo.5910163",
+        "type": "model",
+        "authors": [
+            "Dai, Shubin"
+        ],
+        "tags": [
+            "classification",
+            "densenet",
+            "HPA",
+            "cells",
+            "protein localization",
+            "dataset_id:bioimage-io"
+        ],
+        "metadata": []
+    },
+    {
+        "id": "bioimage-io-hpa-bestfitting-inceptionv3",
+        "name": "HPA Bestfitting InceptionV3",
+        "url": "https://bioimage.io/#/r/10.5281/zenodo.5910854",
+        "type": "model",
+        "authors": [
+            "Dai, Shubin"
+        ],
+        "tags": [
+            "classification",
+            "inception-v3",
+            "HPA",
+            "cells",
+            "protein localization",
+            "dataset_id:bioimage-io"
+        ],
+        "metadata": []
+    },
+    {
+        "id": "bioimage-io-hpa-cell-segmentation",
+        "name": "HPA Cell Segmentation (DPNUnet)",
+        "url": "https://bioimage.io/#/r/10.5281/zenodo.6200635",
+        "type": "model",
+        "authors": [
+            "Xu, Hao",
+            "Ouyang, Wei"
+        ],
+        "tags": [
+            "unet",
+            "nucleus segmentation",
+            "HPA",
+            "cells",
+            "dataset_id:bioimage-io"
+        ],
+        "metadata": []
+    },
+    {
+        "id": "bioimage-io-hpa-nucleus-segmentation",
+        "name": "HPA Nucleus Segmentation (DPNUnet)",
+        "url": "https://bioimage.io/#/r/10.5281/zenodo.6200999",
+        "type": "model",
+        "authors": [
+            "Xu, Hao",
+            "Ouyang, Wei"
+        ],
+        "tags": [
+            "unet",
+            "nucleus segmentation",
+            "HPA",
+            "dataset_id:bioimage-io"
+        ],
+        "metadata": []
+    },
+    {
+        "id": "bioimage-io-hylfm-net",
+        "name": "HyLFM-Net-stat",
+        "url": "https://bioimage.io/#/r/10.5281/zenodo.7614645",
+        "type": "model",
+        "authors": [
+            "Beuttenmueller, Fynn"
+        ],
+        "tags": [
+            "light-field microscopy",
+            "fluorescence microscopy",
+            "image reconstruction",
+            "nuclei",
+            "medaka",
+            "dataset_id:bioimage-io"
+        ],
+        "metadata": []
+    },
+    {
+        "id": "bioimage-io-livecell-segmentation",
+        "name": "LiveCellSegmentationBoundaryModel",
+        "url": "https://bioimage.io/#/r/10.5281/zenodo.5869899",
+        "type": "model",
+        "authors": [
+            "Pape, Constantin"
+        ],
+        "tags": [
+            "2d",
+            "phase-contrast microscopy",
+            "label-free",
+            "cells",
+            "instance segmentation",
+            "unet",
+            "dataset_id:bioimage-io"
+        ],
+        "metadata": []
+    },
+    {
+        "id": "bioimage-io-mito-wgan-super-resolution",
+        "name": "Mitochondria resolution enhancement Wasserstein GAN",
+        "url": "https://bioimage.io/#/r/10.5281/zenodo.7786492",
+        "type": "model",
+        "authors": [
+            "Hidalgo, Ivan",
+            "Gomez de Mariscal, Estibaliz",
+            "Arganda, Ignacio"
+        ],
+        "tags": [
+            "super-resolution",
+            "WGAN",
+            "confocal microscopy",
+            "mitochondria",
+            "fluorescence microscopy",
+            "dataset_id:bioimage-io"
+        ],
+        "metadata": []
+    },
+    {
+        "id": "bioimage-io-mitochondria-em-2d",
+        "name": "MitochondriaEMSegmentation2D",
+        "url": "https://bioimage.io/#/r/10.5281/zenodo.6406803",
+        "type": "model",
+        "authors": [
+            "Pape, Constantin"
+        ],
+        "tags": [
+            "unet",
+            "mitochondria",
+            "electron microscopy",
+            "instance segmentation",
+            "2d",
+            "dataset_id:bioimage-io"
+        ],
+        "metadata": []
+    },
+    {
+        "id": "bioimage-io-mitochondria-em-3d",
+        "name": "MitochondriaEMSegmentationBoundaryModel",
+        "url": "https://bioimage.io/#/r/10.5281/zenodo.5874841",
+        "type": "model",
+        "authors": [
+            "Pape, Constantin"
+        ],
+        "tags": [
+            "3d",
+            "electron microscopy",
+            "mitochondria",
+            "instance segmentation",
+            "unet",
+            "dataset_id:bioimage-io"
+        ],
+        "metadata": []
+    },
+    {
+        "id": "bioimage-io-neuron-em-2d",
+        "name": "Neuron Segmentation in 2D EM (Membrane)",
+        "url": "https://bioimage.io/#/r/10.5281/zenodo.5817052",
+        "type": "model",
+        "authors": [
+            "Pape, Constantin"
+        ],
+        "tags": [
+            "electron microscopy",
+            "unet",
+            "neurons",
+            "brain",
+            "2d",
+            "ISBI challenge",
+            "dataset_id:bioimage-io"
+        ],
+        "metadata": []
+    },
+    {
+        "id": "bioimage-io-neuron-em-3d",
+        "name": "Neuron Segmentation in EM (Membrane Prediction)",
+        "url": "https://bioimage.io/#/r/10.5281/zenodo.5874741",
+        "type": "model",
+        "authors": [
+            "Pape, Constantin"
+        ],
+        "tags": [
+            "unet",
+            "neurons",
+            "instance segmentation",
+            "electron microscopy",
+            "CREMI challenge",
+            "connectomics",
+            "3d",
+            "dataset_id:bioimage-io"
+        ],
+        "metadata": []
+    },
+    {
+        "id": "bioimage-io-nuclei-segmentation",
+        "name": "NucleiSegmentationBoundaryModel",
+        "url": "https://bioimage.io/#/r/10.5281/zenodo.5764892",
+        "type": "model",
+        "authors": [
+            "Pape, Constantin"
+        ],
+        "tags": [
+            "fluorescence microscopy",
+            "nuclei",
+            "instance segmentation",
+            "unet",
+            "2d",
+            "dataset_id:bioimage-io"
+        ],
+        "metadata": []
+    },
+    {
+        "id": "bioimage-io-pancreatic-phase-contrast",
+        "name": "Pancreatic Phase Contrast Cell Segmentation (U-Net)",
+        "url": "https://bioimage.io/#/r/10.5281/zenodo.5914248",
+        "type": "model",
+        "authors": [
+            "Arganda Carreras, Ignacio"
+        ],
+        "tags": [
+            "phase-contrast microscopy",
+            "unet",
+            "pancreatic stem cells",
+            "2d",
+            "cell tracking challenge",
+            "dataset_id:bioimage-io"
+        ],
+        "metadata": []
+    },
+    {
+        "id": "bioimage-io-plant-cell-membrane-segmentation",
+        "name": "Cell Segmentation from Membrane Staining for Plant Tissues",
+        "url": "https://bioimage.io/#/r/10.5281/zenodo.5749843",
+        "type": "model",
+        "authors": [
+            "DeepImageJ",
+            "ZeroCostDL4Mic"
+        ],
+        "tags": [
+            "3d",
+            "unet",
+            "fluorescence microscopy",
+            "cell membrane",
+            "plant",
+            "arabidopsis",
+            "dataset_id:bioimage-io"
+        ],
+        "metadata": []
+    },
+    {
+        "id": "bioimage-io-plantseg-nuclei-3d",
+        "name": "PlantSeg Plant Nuclei 3D UNet",
+        "url": "https://bioimage.io/#/r/10.5281/zenodo.8401064",
+        "type": "model",
+        "authors": [
+            "Yu, Qin"
+        ],
+        "tags": [
+            "3d",
+            "unet",
+            "plantseg",
+            "nuclei segmentation",
+            "instance segmentation",
+            "arabidopsis",
+            "ovules",
+            "plant",
+            "confocal microscopy",
+            "dataset_id:bioimage-io"
+        ],
+        "metadata": []
+    },
+    {
+        "id": "bioimage-io-platynereis-em-cells",
+        "name": "PlatynereisEMcellsSegmentationBoundaryModel",
+        "url": "https://bioimage.io/#/r/10.5281/zenodo.6028280",
+        "type": "model",
+        "authors": [
+            "Pape, Constantin"
+        ],
+        "tags": [
+            "unet",
+            "cells",
+            "instance segmentation",
+            "electron microscopy",
+            "platynereis",
+            "dataset_id:bioimage-io"
+        ],
+        "metadata": []
+    },
+    {
+        "id": "bioimage-io-platynereis-em-nuclei",
+        "name": "PlatynereisEMnucleiSegmentationBoundaryModel",
+        "url": "https://bioimage.io/#/r/10.5281/zenodo.6028097",
+        "type": "model",
+        "authors": [
+            "Pape, Constantin"
+        ],
+        "tags": [
+            "unet",
+            "nuclei",
+            "instance segmentation",
+            "electron microscopy",
+            "platynereis",
+            "dataset_id:bioimage-io"
+        ],
+        "metadata": []
+    },
+    {
+        "id": "bioimage-io-sev-tem-segmentation",
+        "name": "Small Extracellular Vesicle TEM Segmentation (Fully Residual U-Net)",
+        "url": "https://bioimage.io/#/r/10.5281/zenodo.6559474",
+        "type": "model",
+        "authors": [
+            "Gomez-de-Mariscal, Estibaliz"
+        ],
+        "tags": [
+            "extracellular vesicles",
+            "TEM",
+            "electron microscopy",
+            "2d",
+            "instance segmentation",
+            "dataset_id:bioimage-io"
+        ],
+        "metadata": []
+    },
+    {
+        "id": "bioimage-io-stardist-fluorescence-nuclei",
+        "name": "StarDist Fluorescence Nuclei Segmentation",
+        "url": "https://bioimage.io/#/r/10.5281/zenodo.6348084",
+        "type": "model",
+        "authors": [
+            "Schmidt, Uwe",
+            "Weigert, Martin"
+        ],
+        "tags": [
+            "fluorescence microscopy",
+            "2d",
+            "nuclei",
+            "instance segmentation",
+            "stardist",
+            "dataset_id:bioimage-io"
+        ],
+        "metadata": []
+    },
+    {
+        "id": "bioimage-io-stardist-he-nuclei",
+        "name": "StarDist H&E Nuclei Segmentation",
+        "url": "https://bioimage.io/#/r/10.5281/zenodo.6338614",
+        "type": "model",
+        "authors": [
+            "Schmidt, Uwe",
+            "Weigert, Martin"
+        ],
+        "tags": [
+            "whole-slide imaging",
+            "2d",
+            "nuclei",
+            "instance segmentation",
+            "stardist",
+            "histology",
+            "dataset_id:bioimage-io"
+        ],
+        "metadata": []
+    },
+    {
+        "id": "bioimage-io-stardist-plant-nuclei-3d",
+        "name": "StarDist Plant Nuclei 3D ResNet",
+        "url": "https://bioimage.io/#/r/10.5281/zenodo.8421755",
+        "type": "model",
+        "authors": [
+            "Yu, Qin"
+        ],
+        "tags": [
+            "3d",
+            "resnet",
+            "stardist",
+            "nuclei segmentation",
+            "instance segmentation",
+            "confocal microscopy",
+            "plant",
+            "arabidopsis",
+            "ovules",
+            "dataset_id:bioimage-io"
+        ],
+        "metadata": []
+    },
+    {
+        "id": "bioimage-io-unifmir-factin",
+        "name": "UniFMIR Super Resolution on F-actin",
+        "url": "https://bioimage.io/#/r/10.5281/zenodo.8420099",
+        "type": "model",
+        "authors": [
+            "Ma, Chenxi"
+        ],
+        "tags": [
+            "fluorescence microscopy",
+            "2d",
+            "image restoration",
+            "super-resolution",
+            "foundation model",
+            "dataset_id:bioimage-io"
+        ],
+        "metadata": []
+    },
+    {
+        "id": "bioimage-io-unifmir-microtubules",
+        "name": "UniFMIR Super Resolution on Microtubules",
+        "url": "https://bioimage.io/#/r/10.5281/zenodo.8419845",
+        "type": "model",
+        "authors": [
+            "Ma, Chenxi"
+        ],
+        "tags": [
+            "fluorescence microscopy",
+            "2d",
+            "image restoration",
+            "super-resolution",
+            "foundation model",
+            "dataset_id:bioimage-io"
+        ],
+        "metadata": []
+    },
+    {
+        "id": "broad-cellpose-brightfield",
+        "name": "Custom Cellpose models for segmentation of brightfield images",
+        "url": "https://zenodo.org/records/15602078",
+        "type": "model",
+        "authors": [
+            "Liu, Le"
+        ],
+        "tags": [
+            "Cellpose",
+            "segmentation",
+            "brightfield",
+            "deep learning",
+            "dataset_id:broad-imaging"
+        ],
+        "metadata": []
+    },
+    {
+        "id": "czi-viscy",
+        "name": "CZI VisCy: Virtual staining and cell dynamics models",
+        "url": "https://public.czbiohub.org/comp.micro/viscy/",
+        "type": "model collection",
+        "authors": [
+            "Mehta Lab, CZ Biohub San Francisco"
+        ],
+        "tags": [
+            "virtual staining",
+            "label-free imaging",
+            "OME-Zarr",
+            "deep learning",
+            "time-lapse",
+            "contrastive learning",
+            "cell dynamics",
+            "CZ Biohub"
+        ],
+        "metadata": [
+            {
+                "type": "article",
+                "url": "https://doi.org/10.1038/s42256-025-01046-2"
+            }
+        ]
+    }
+]
