@@ -2,7 +2,7 @@
 
 A curated catalog of public biological imaging datasets, with some omics and expression resources, in `datasets.json`. Models for bioimaging are cataloged separately in `models.json`.
 
-**69 datasets** in `datasets.json` (15 databases, 4 collections, 50 experiments) and **47 models** in `models.json`.
+**70 datasets** in `datasets.json` (15 databases, 4 collections, 51 experiments) and **47 models** in `models.json`.
 
 ## Datasets (`datasets.json`)
 

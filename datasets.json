@@ -1198,6 +1198,47 @@
         ]
     },
     {
+        "id": "spjuthlab-holmberg-lctp-phase-contrast-moa",
+        "name": "Live-cell Phase Contrast image dataset using a balanced class benchmark assay",
+        "url": "https://figshare.scilifelab.se/articles/dataset/Live-cell_Phase_Contrast_image_dataset_using_a_balanced_class_benchmark_assay/29315642",
+        "type": "experiment",
+        "authors": [
+            "Holmberg, David",
+            "Jonsson, Pär",
+            "Spjuth, Ola",
+            "Lovell, Gillian",
+            "Trygg, Johan",
+            "Carreras-Puigvert, Jordi",
+            "Johansson, Martin",
+            "Rietdijk, Jonne",
+            "Forsgren, Edvin"
+        ],
+        "tags": [
+            "human",
+            "Homo sapiens",
+            "A549",
+            "U2OS",
+            "phase-contrast microscopy",
+            "time-lapse",
+            "live-cell imaging",
+            "mode of action",
+            "MoA classification",
+            "benchmark",
+            "dataset_id:figshare",
+            "data:images"
+        ],
+        "metadata": [
+            {
+                "type": "article",
+                "url": "https://doi.org/10.1101/2025.04.22.649936"
+            },
+            {
+                "type": "url",
+                "url": "https://github.com/edvinforsgren/LCTP"
+            }
+        ]
+    },
+    {
         "id": "ssbd",
         "name": "Systems Science of Biological Dynamics (SSBD)",
         "url": "https://ssbd.riken.jp/repository",
